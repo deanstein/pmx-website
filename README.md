@@ -1,7 +1,7 @@
 # PMX3D Website
 A website for the Parametrix3D product series.
 
-## Developing
+## Development
 
 ### First time install
 
@@ -19,10 +19,10 @@ yarn run dev
 
 
 ```bash
-npm run build
+yarn run build
 ```
 
 ### Preview production
 ```bash
-npm run preview
+yarn run preview
 ```
