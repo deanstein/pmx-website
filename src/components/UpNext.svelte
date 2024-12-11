@@ -4,14 +4,14 @@
 </script>
 
 <JDGUpNext
-	item1Label={'SEE ALL WORK'}
+	item1Label={'SEE ALL DESIGNS'}
 	item1Href={'/'}
-	item1ImageAttributes={imageAttributesCollection.arch.texas_lobby}
-	item2Label={'ABOUT JOSH'}
+	item1ImageAttributes={imageAttributesCollection.product_line_1}
+	item2Label={'ABOUT PMX3D'}
 	item2Href="/about"
-	item2ImageAttributes={imageAttributesCollection.jdg_photo_2}
+	item2ImageAttributes={imageAttributesCollection.gh_script_0}
 	item2ObjectPosition="right"
 	item3Label="GET IN TOUCH"
 	item3Href="/contact"
-	item3ImageAttributes={imageAttributesCollection.exp.broadway_southwest_concept_2_promenade}
+	item3ImageAttributes={imageAttributesCollection.coaster_028A_0}
 />
