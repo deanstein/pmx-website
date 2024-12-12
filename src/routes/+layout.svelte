@@ -5,10 +5,9 @@
 
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
-	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
+	import { pmx3dWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
-	//import SocialMedia from '../components/SocialMedia.svelte';
 	import { pageMeta, sharedUrls } from '$lib/shared-strings';
 
 	// META TAGS
@@ -68,7 +67,7 @@
 	<slot />
 
 	<JDGFooter
-		repoName={jdgWebsiteRepoName}
+		repoName={pmx3dWebsiteRepoName}
 		{appVersion}
 		{additionalVersionData}
 		alignItems="center"
