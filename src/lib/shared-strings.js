@@ -4,7 +4,7 @@ export const sharedStyles = {
 
 export const sharedUrls = {
 	websiteIconSrc:
-		'https://res.cloudinary.com/jdg-main/image/upload/v1720834639/jdg-website/jdg-logo.jpg'
+		'https://res.cloudinary.com/jdg-main/image/upload/v1733979906/pmx-website/pmx-icon.png'
 };
 
 export const pageMeta = {
