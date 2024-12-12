@@ -67,7 +67,7 @@
 	<slot />
 
 	<JDGFooter
-		repoName={pmx3dWebsiteRepoName}
+		repoName="pmx-website"
 		{appVersion}
 		{additionalVersionData}
 		alignItems="center"
