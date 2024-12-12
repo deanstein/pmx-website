@@ -18,8 +18,7 @@ export const load = ({ url }) => {
 			description: pageMeta.home.description,
 			images: [
 				{
-					url: imageAttributesCollection.swe.ccp_construction_60s70s_blue_mall_columns_ceiling
-						.imgSrc,
+					url: imageAttributesCollection.cityscape_021A_0.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'

@@ -49,99 +49,77 @@
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.arch.fairgrounds_river}
+		imageAttributes={imageAttributesCollection.cityscape_021A_0}
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
-		superText={`Hi! 👋 I'm Josh.`}
-		primaryText={"I'm a 3D creator"}
+		primaryText="PARAMETRIX3D"
+		secondaryText={'HUMAN DESIGNED  |  CODE GENERATED  |  MACHINE PRINTED'}
 		primaryTextBold
-		secondaryText={'with experience in:'}
 	/>
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
-	<JDGContentBoxFloating title={'INDUSTRIAL DESIGN'}>
-		<JDGBodyCopy textAlign="center" paddingTop="0" textWrap="balance">
-			My passion for design extends naturally beyond buildings to the products, furniture, and
-			humans that inhabit them.
-		</JDGBodyCopy>
-		<JDGH3H4 h3String="PARAMETRIX3D" h4String="Generative 3D-printed products" />
-		<JDGBodyCopy textAlign="center" paddingTop="0">
-			Harnessing skills from my architecture career, I use <a
-				href={jdgSharedUrls.grasshopper}
-				target="_blank">visual scripting</a
-			>
-			and 3D printing to design, test, and refine useful products for the home under the label
-			<a href="http://www.parametrix3d.com/" target="_blank">Parametrix3D</a>.
-			<br /><br />
-			Select designs were sold physically at the
-			<a href="https://iheartdenverstore.com/" target="_blank">I Heart Denver</a>
-			store from 2014 to 2017, with over 600 products sold. If you have a 3D printer, you can get these
-			printer-ready models at
-			<a href="https://www.cgtrader.com/3d-models?author=parametrix" target="_blank">CGTrader</a>.
-		</JDGBodyCopy>
-		<JDGClipFade>
-			<JDGGridLayout>
-				<JDGImageTile
-					label={'DENVER CITYSCAPE'}
-					imageAttributes={imageAttributesCollection.ind.cityscape_021A_0}
-					href="http://www.parametrix3d.com/021.html"
-					hrefOpenInNewTab={true}
-				/>
-				<JDGImageTile
-					label={'PUZZLE DECOR'}
-					imageAttributes={imageAttributesCollection.ind.puzzle_decor_030A_0}
-					href="http://www.parametrix3d.com/030.html"
-					hrefOpenInNewTab={true}
-				/>
-				<JDGImageTile
-					label={'ADVANCED PLANTER'}
-					imageAttributes={imageAttributesCollection.ind.planter_003F_0}
-					href="http://www.parametrix3d.com/003.html"
-					hrefOpenInNewTab={true}
-				/>
-				<JDGImageTile
-					label={'PEN HOLDER'}
-					imageAttributes={imageAttributesCollection.ind.pen_holder_008I_0}
-					href="http://www.parametrix3d.com/008.html"
-					hrefOpenInNewTab={true}
-				/>
-				<JDGImageTile
-					label={'CARD HOLDER'}
-					imageAttributes={imageAttributesCollection.ind.card_holder_015C_0}
-					href="http://www.parametrix3d.com/015.html"
-					hrefOpenInNewTab={true}
-				/>
-				<JDGImageTile
-					label={'DEN / CO MAGNETS'}
-					imageAttributes={imageAttributesCollection.ind.den_co_magnets_047BC_0}
-					href="http://www.parametrix3d.com/047.html"
-					hrefOpenInNewTab={true}
-				/>
-				<JDGImageTile
-					label={'CO TOPO MAGNET'}
-					imageAttributes={imageAttributesCollection.ind.co_topo_magnet_047D_0}
-					href="http://www.parametrix3d.com/047d.html"
-					hrefOpenInNewTab={true}
-				/>
-				<JDGImageTile
-					label={'HERB GRINDER'}
-					imageAttributes={imageAttributesCollection.ind.grinder_039A_0}
-					href="http://www.parametrix3d.com/039.html"
-					hrefOpenInNewTab={true}
-				/>
-				<JDGImageTile
-					label={'DENVER MAP COASTER'}
-					imageAttributes={imageAttributesCollection.ind.coaster_028A_0}
-					href="http://www.parametrix3d.com/028.html"
-					hrefOpenInNewTab={true}
-				/>
-				<JDGImageTile
-					label={'KITCHEN CADDY'}
-					imageAttributes={imageAttributesCollection.ind.kitchen_caddy_007F_0}
-					href="http://www.parametrix3d.com/007.html"
-					hrefOpenInNewTab={true}
-				/>
-			</JDGGridLayout>
-		</JDGClipFade>
+	<JDGContentBoxFloating>
+		<JDGGridLayout>
+			<JDGImageTile
+				label={'DENVER CITYSCAPE'}
+				imageAttributes={imageAttributesCollection.cityscape_021A_0}
+				href="http://www.parametrix3d.com/021.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'PUZZLE DECOR'}
+				imageAttributes={imageAttributesCollection.puzzle_decor_030A_0}
+				href="http://www.parametrix3d.com/030.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'ADVANCED PLANTER'}
+				imageAttributes={imageAttributesCollection.planter_003F_0}
+				href="http://www.parametrix3d.com/003.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'PEN HOLDER'}
+				imageAttributes={imageAttributesCollection.pen_holder_008I_0}
+				href="http://www.parametrix3d.com/008.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'CARD HOLDER'}
+				imageAttributes={imageAttributesCollection.card_holder_015C_0}
+				href="http://www.parametrix3d.com/015.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'DEN / CO MAGNETS'}
+				imageAttributes={imageAttributesCollection.den_co_magnets_047BC_0}
+				href="http://www.parametrix3d.com/047.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'CO TOPO MAGNET'}
+				imageAttributes={imageAttributesCollection.co_topo_magnet_047D_0}
+				href="http://www.parametrix3d.com/047d.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'HERB GRINDER'}
+				imageAttributes={imageAttributesCollection.grinder_039A_0}
+				href="http://www.parametrix3d.com/039.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'DENVER MAP COASTER'}
+				imageAttributes={imageAttributesCollection.coaster_028A_0}
+				href="http://www.parametrix3d.com/028.html"
+				hrefOpenInNewTab={true}
+			/>
+			<JDGImageTile
+				label={'KITCHEN CADDY'}
+				imageAttributes={imageAttributesCollection.kitchen_caddy_007F_0}
+				href="http://www.parametrix3d.com/007.html"
+				hrefOpenInNewTab={true}
+			/>
+		</JDGGridLayout>
 	</JDGContentBoxFloating>
 	<UpNext />
 </JDGContentContainer>

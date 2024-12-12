@@ -50,9 +50,6 @@
 	const jdgUIVersion = packageJson?.dependencies['jdg-ui-svelte'];
 
 	const additionalVersionData = `JDG UI: v${jdgUIVersion}`;
-
-	const disclaimer =
-		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
 </script>
 
 <MetaTags {...metaTags} />
@@ -61,10 +58,8 @@
 	showHeaderStripes={false}
 >
 	<JDGHeader
-		logoTitle={'PMX3D'}
-		logoSrc={addCloudinaryUrlTransformation(
-			'https://res.cloudinary.com/jdg-main/image/upload/v1720834639/jdg-website/jdg-logo.jpg'
-		)}
+		logoJustification="center"
+		logoSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
 		{navItems}
 	/>
 
@@ -76,10 +71,7 @@
 		repoName={jdgWebsiteRepoName}
 		{appVersion}
 		{additionalVersionData}
-		{disclaimer}
 		alignItems="center"
 		showDevToolsButton={true}
-	>
-		<SocialMedia />
-	</JDGFooter>
+	></JDGFooter>
 </JDGAppContainer>
