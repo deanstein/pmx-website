@@ -55,6 +55,7 @@
 <JDGAppContainer
 	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
 	showHeaderStripes={false}
+	fontFamily="Goldman"
 >
 	<JDGHeader
 		logoJustification="center"
