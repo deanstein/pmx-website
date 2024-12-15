@@ -6,16 +6,11 @@
 	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
 
 	import {
-		JDGBodyCopy,
-		JDGClipFade,
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
-		JDGH3H4,
-		JDGImage,
 		JDGImageFullWidth,
 		JDGImageTile,
-		JDGJumpTo
 	} from 'jdg-ui-svelte';
 	import UpNext from '../components/UpNext.svelte';
 
@@ -52,12 +47,12 @@
 		imageAttributes={imageAttributesCollection.cityscape_021A_0}
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 		primaryText="PARAMETRIX3D"
-		secondaryText={'HUMAN DESIGNED  |  CODE GENERATED  |  MACHINE PRINTED'}
+		secondaryText={'HUMAN DESIGNED &nbsp&nbsp |  &nbsp&nbsp CODE GENERATED  &nbsp&nbsp |  &nbsp&nbsp MACHINE PRINTED'}
 		primaryTextBold
 	/>
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
-	<JDGContentBoxFloating>
+	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGGridLayout>
 			<JDGImageTile
 				label={'DENVER CITYSCAPE'}
