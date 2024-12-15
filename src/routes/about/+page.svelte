@@ -19,18 +19,24 @@
 			home.
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE BELIEVE IN VISUAL SCRIPTING" textColor={jdgColors.text} />
-		<JDGImageFullWidth imageAttributes={imageAttributesCollection.gh_script_0} maxHeight="300px" />
+		<JDGImageFullWidth
+			imageAttributes={imageAttributesCollection.gh_script_1_transparent}
+			maxHeight="300px"
+		/>
 		<JDGBodyCopy paddingTop="0">
 			We build algorithms that build great products. Our generative design process allows us to
 			refine our designs over and over until they're just right.
 			<br /><br />
 			Our products are built like software: regularly updated to be their best.
 			<br /><br />
-			Parametrix3D products are engraved with their model number and a version number. We use this to
-			track our products in the wild and match them with a script and change log, should you contact
-			us with issues or feedback.
+			Each design is engraved with a model number and a version number. We use this to track our products
+			in the wild and match them with a script and change log, should you contact us with issues or feedback.
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE BELIEVE IN DESIGN AND QUALITY" textColor={jdgColors.text} />
+		<JDGImageFullWidth
+			imageAttributes={imageAttributesCollection.cityscape_021A_multiple_1}
+			maxHeight="300px"
+		/>
 		<JDGBodyCopy paddingTop="0">
 			We have high standards. We design objects that serve needs, satisfy wants, and look great in a
 			variety of contexts. We use our products at home, because we believe in them.
@@ -49,6 +55,7 @@
 			our footprint.
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE BELIEVE IN RECYCLING" textColor={jdgColors.text} />
+		<JDGImageFullWidth imageAttributes={imageAttributesCollection.recycling_1} maxHeight="300px" />
 		<JDGBodyCopy paddingTop="0">
 			During fabrication, we strive to keep our failure rate low. But accidents happen, and we
 			generate more plastic waste than we'd like. We ship our failed prints and waste to Filabot,
@@ -64,7 +71,7 @@
 		item1ImageAttributes={imageAttributesCollection.product_line_1}
 		item2Label={'ABOUT PMX3D'}
 		item2Href="/about"
-		item2ImageAttributes={imageAttributesCollection.gh_script_0}
+		item2ImageAttributes={imageAttributesCollection.gh_script_1}
 		item2ObjectPosition="right"
 		item3Label="GET IN TOUCH"
 		item3Href="/contact"

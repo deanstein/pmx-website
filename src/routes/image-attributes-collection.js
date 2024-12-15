@@ -6,10 +6,19 @@ import {
 import jdgImageAttributes from 'jdg-ui-svelte/schemas/jdg-image-attributes.js';
 
 const imageAttributesCollection = {
-	gh_script_0: postProcessImageAttributes(
+	gh_script_1: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1725918467/pmx-website/gh-script-1.jpg'
+			),
+			imgCaption:
+				'A Grasshopper script which uses nodes and connections to create a flexible set of instructions which generate a final 3D model.'
+		})
+	),
+	gh_script_1_transparent: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1734286358/pmx-website/gh-script-1-transparent.png'
 			),
 			imgCaption:
 				'A Grasshopper script which uses nodes and connections to create a flexible set of instructions which generate a final 3D model.'
@@ -22,6 +31,14 @@ const imageAttributesCollection = {
 			),
 			imgCaption:
 				'A Grasshopper script which uses nodes and connections to create a flexible set of instructions that generates a final 3D model.'
+		})
+	),
+	recycling_1: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1734285229/pmx-website/recycling-1.jpg'
+			),
+			imgCaption: 'A collection of failed or experimental prints ready for recycling.'
 		})
 	),
 	planter_003F_0: postProcessImageAttributes(
@@ -70,6 +87,14 @@ const imageAttributesCollection = {
 				'https://res.cloudinary.com/jdg-main/image/upload/v1723693930/pmx-website/021A-0.jpg'
 			),
 			imgCaption: 'Denver Cityscape'
+		})
+	),
+	cityscape_021A_multiple_1: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1734284550/pmx-website/021A-multiple-1.jpg'
+			),
+			imgCaption: 'Several Denver Cityscapes'
 		})
 	),
 	coaster_028A_0: postProcessImageAttributes(

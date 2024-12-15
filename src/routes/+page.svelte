@@ -10,7 +10,7 @@
 		JDGContentContainer,
 		JDGGridLayout,
 		JDGImageFullWidth,
-		JDGImageTile,
+		JDGImageTile
 	} from 'jdg-ui-svelte';
 	import UpNext from '../components/UpNext.svelte';
 
