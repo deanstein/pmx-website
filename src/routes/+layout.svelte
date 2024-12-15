@@ -73,5 +73,6 @@
 		{additionalVersionData}
 		alignItems="center"
 		showDevToolsButton={true}
+		copyright="PARAMETRIX3D, LLC"
 	></JDGFooter>
 </JDGAppContainer>

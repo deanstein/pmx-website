@@ -5,11 +5,11 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGImageFullWidth,
-		JDGUpNext
+		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 	import imageAttributesCollection from '../image-attributes-collection';
+	import UpNext from '../../components/UpNext.svelte';
 </script>
 
 <JDGContentContainer>
@@ -65,16 +65,5 @@
 			prints to Filabot.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGUpNext
-		item1Label={'SEE ALL DESIGNS'}
-		item1Href={'/'}
-		item1ImageAttributes={imageAttributesCollection.product_line_1}
-		item2Label={'ABOUT PMX3D'}
-		item2Href="/about"
-		item2ImageAttributes={imageAttributesCollection.gh_script_1}
-		item2ObjectPosition="right"
-		item3Label="GET IN TOUCH"
-		item3Href="/contact"
-		item3ImageAttributes={imageAttributesCollection.coaster_028A_0}
-	/>
+	<UpNext />
 </JDGContentContainer>
