@@ -35,7 +35,7 @@
 			Each design is engraved with a model number and a version number. We use this to track our products
 			in the wild and match them with a script and change log, should you contact us with issues or feedback.
 		</JDGBodyCopy>
-		<JDGAccentText secondaryText="TO CREATE QUALITY DESIGNS" textColor={jdgColors.text} />
+		<JDGAccentText secondaryText="WE CREATE SOPHISTICATED DESIGNS" textColor={jdgColors.text} />
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.cityscape_021A_multiple_1}
 			maxHeight="300px"
@@ -47,7 +47,7 @@
 			Where sold physically, our designs exhibit high print quality, and we don't put anything on the
 			shelf that doesn't meet our strict quality control criteria.
 		</JDGBodyCopy>
-		<JDGAccentText secondaryText="USING MINIMAL PACKAGING" textColor={jdgColors.text} />
+		<JDGAccentText secondaryText="WE USE MINIMAL PACKAGING" textColor={jdgColors.text} />
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.product_line_1}
 			maxHeight="300px"
@@ -57,7 +57,7 @@
 			packaging. So we've minimized our packaging to put our designs front and center, and to reduce
 			our footprint.
 		</JDGBodyCopy>
-		<JDGAccentText secondaryText="AND RECYCLING WHAT WE CAN" textColor={jdgColors.text} />
+		<JDGAccentText secondaryText="WE MINIMIZE OUR IMPACT" textColor={jdgColors.text} />
 		<JDGImageFullWidth imageAttributes={imageAttributesCollection.recycling_1} maxHeight="300px" />
 		<JDGBodyCopy paddingTop="0">
 			During fabrication, we strive to keep our failure rate low. But accidents happen, and we
