@@ -24,5 +24,12 @@ export const pageMeta = {
 		title: 'Contact',
 		description: 'Contact PMX3D',
 		url: '/contact'
+	},
+	products: {
+		cityscape_021: {
+			title: 'Denver Cityscape',
+			description: 'The Denver Cityscape by PMX3D',
+			url: '/products/021'
+		}
 	}
 };

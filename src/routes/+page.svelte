@@ -57,62 +57,52 @@
 			<JDGImageTile
 				label={'DENVER CITYSCAPE'}
 				imageAttributes={imageAttributesCollection.cityscape_021A_0}
-				href="http://www.parametrix3d.com/021.html"
-				hrefOpenInNewTab={true}
+				href={pageMeta.products.cityscape_021.url}
 			/>
 			<JDGImageTile
 				label={'PUZZLE DECOR'}
 				imageAttributes={imageAttributesCollection.puzzle_decor_030A_0}
 				href="http://www.parametrix3d.com/030.html"
-				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
 				label={'ADVANCED PLANTER'}
 				imageAttributes={imageAttributesCollection.planter_003F_0}
 				href="http://www.parametrix3d.com/003.html"
-				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
 				label={'PEN HOLDER'}
 				imageAttributes={imageAttributesCollection.pen_holder_008I_0}
 				href="http://www.parametrix3d.com/008.html"
-				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
 				label={'CARD HOLDER'}
 				imageAttributes={imageAttributesCollection.card_holder_015C_0}
 				href="http://www.parametrix3d.com/015.html"
-				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
 				label={'DEN / CO MAGNETS'}
 				imageAttributes={imageAttributesCollection.den_co_magnets_047BC_0}
 				href="http://www.parametrix3d.com/047.html"
-				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
 				label={'CO TOPO MAGNET'}
 				imageAttributes={imageAttributesCollection.co_topo_magnet_047D_0}
 				href="http://www.parametrix3d.com/047d.html"
-				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
 				label={'HERB GRINDER'}
 				imageAttributes={imageAttributesCollection.grinder_039A_0}
 				href="http://www.parametrix3d.com/039.html"
-				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
 				label={'DENVER MAP COASTER'}
 				imageAttributes={imageAttributesCollection.coaster_028A_0}
 				href="http://www.parametrix3d.com/028.html"
-				hrefOpenInNewTab={true}
 			/>
 			<JDGImageTile
 				label={'KITCHEN CADDY'}
 				imageAttributes={imageAttributesCollection.kitchen_caddy_007F_0}
 				href="http://www.parametrix3d.com/007.html"
-				hrefOpenInNewTab={true}
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
