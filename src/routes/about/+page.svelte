@@ -10,6 +10,7 @@
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 	import imageAttributesCollection from '../image-attributes-collection';
 	import UpNext from '../../components/UpNext.svelte';
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 </script>
 
 <JDGContentContainer>
@@ -17,8 +18,8 @@
 		<JDGBodyCopy paddingTop="0" textAlign="center" textWrap="balance">
 			Parametrix3D is a design collaborative making mathematically-generated products for life and
 			home.
-			<br/>
-			<br>
+			<br />
+			<br />
 			Here's what we're about:
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE USE VISUAL SCRIPTING" textColor={jdgColors.text} />
@@ -61,11 +62,12 @@
 		<JDGImageFullWidth imageAttributes={imageAttributesCollection.recycling_1} maxHeight="300px" />
 		<JDGBodyCopy paddingTop="0">
 			During fabrication, we strive to keep our failure rate low. But accidents happen, and we
-			generate more plastic waste than we'd like. We ship our failed prints and waste to Filabot,
-			who can turn it into usable filament for more prototyping.
+			generate more plastic waste than we'd like.
 			<br /><br />
-			If you have a 3D printed product that is at the end of its life, we recommend you send your unused
-			prints to Filabot.
+			Our products are printed in recyclable plastic, and we partner with recyclers to ensure our waste is disposed of properly.
+			<br /><br />
+			As of 2017, Parametrix3D products are no longer available in-store, but can be downloaded and printed
+			from <a href={jdgSharedUrls.pmxCgTrader} target="_blank">CGTrader</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<UpNext />
