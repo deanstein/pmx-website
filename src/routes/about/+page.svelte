@@ -64,7 +64,8 @@
 			During fabrication, we strive to keep our failure rate low. But accidents happen, and we
 			generate more plastic waste than we'd like.
 			<br /><br />
-			Our products are printed in recyclable plastic, and we partner with recyclers to ensure our waste is disposed of properly.
+			Our products are printed in recyclable plastic, and we partner with recyclers to ensure our waste
+			is disposed of properly.
 			<br /><br />
 			As of 2017, Parametrix3D products are no longer available in-store, but can be downloaded and printed
 			from <a href={jdgSharedUrls.pmxCgTrader} target="_blank">CGTrader</a>.
