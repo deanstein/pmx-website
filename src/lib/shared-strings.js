@@ -12,7 +12,7 @@ export const pageMeta = {
 		return '%s | ' + this.home.title;
 	},
 	home: {
-		title: 'PARAMETRIX3D',
+		title: 'PMX3D',
 		description: '3D-printed products designed using visual scripting'
 	},
 	about: {

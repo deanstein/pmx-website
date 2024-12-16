@@ -13,12 +13,15 @@
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating title={'ABOUT'}>
+	<JDGContentBoxFloating title={'ABOUT PMX3D'}>
 		<JDGBodyCopy paddingTop="0" textAlign="center" textWrap="balance">
 			Parametrix3D is a design collaborative making mathematically-generated products for life and
 			home.
+			<br/>
+			<br>
+			Here's what we're about:
 		</JDGBodyCopy>
-		<JDGAccentText secondaryText="WE BELIEVE IN VISUAL SCRIPTING" textColor={jdgColors.text} />
+		<JDGAccentText secondaryText="WE USE VISUAL SCRIPTING" textColor={jdgColors.text} />
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.gh_script_1_transparent}
 			maxHeight="300px"
@@ -32,7 +35,7 @@
 			Each design is engraved with a model number and a version number. We use this to track our products
 			in the wild and match them with a script and change log, should you contact us with issues or feedback.
 		</JDGBodyCopy>
-		<JDGAccentText secondaryText="WE BELIEVE IN DESIGN AND QUALITY" textColor={jdgColors.text} />
+		<JDGAccentText secondaryText="TO CREATE QUALITY DESIGNS" textColor={jdgColors.text} />
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.cityscape_021A_multiple_1}
 			maxHeight="300px"
@@ -44,7 +47,7 @@
 			Where sold physically, our designs exhibit high print quality, and we don't put anything on the
 			shelf that doesn't meet our strict quality control criteria.
 		</JDGBodyCopy>
-		<JDGAccentText secondaryText="WE BELIEVE IN MINIMAL PACKAGING" textColor={jdgColors.text} />
+		<JDGAccentText secondaryText="USING MINIMAL PACKAGING" textColor={jdgColors.text} />
 		<JDGImageFullWidth
 			imageAttributes={imageAttributesCollection.product_line_1}
 			maxHeight="300px"
@@ -54,7 +57,7 @@
 			packaging. So we've minimized our packaging to put our designs front and center, and to reduce
 			our footprint.
 		</JDGBodyCopy>
-		<JDGAccentText secondaryText="WE BELIEVE IN RECYCLING" textColor={jdgColors.text} />
+		<JDGAccentText secondaryText="AND RECYCLING WHAT WE CAN" textColor={jdgColors.text} />
 		<JDGImageFullWidth imageAttributes={imageAttributesCollection.recycling_1} maxHeight="300px" />
 		<JDGBodyCopy paddingTop="0">
 			During fabrication, we strive to keep our failure rate low. But accidents happen, and we
