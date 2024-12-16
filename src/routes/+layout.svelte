@@ -54,6 +54,7 @@
 <MetaTags {...metaTags} />
 <JDGAppContainer
 	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
+	accentColors={['#C4C4C4', '#707070FF', '#2A2A2A']}
 	showHeaderStripes={false}
 	fontFamily="Goldman"
 >
