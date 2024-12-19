@@ -89,6 +89,39 @@ const imageAttributesCollection = {
 			imgCaption: 'Denver Cityscape'
 		})
 	),
+	cityscape_021A_1: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1734578666/pmx-website/021A-1.jpg'
+			),
+			imgCaption: 'Denver Cityscape',
+			allowBackgroundBlur: false
+		})
+	),
+	cityscape_021A_2: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1734578666/pmx-website/021A-2.jpg'
+			),
+			imgCaption: 'Denver Cityscape'
+		})
+	),
+	cityscape_021A_3: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1734578666/pmx-website/021A-3.jpg'
+			),
+			imgCaption: 'Denver Cityscape'
+		})
+	),
+	cityscape_021A_4: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1734578666/pmx-website/021A-4.jpg'
+			),
+			imgCaption: 'Denver Cityscape'
+		})
+	),
 	cityscape_021A_multiple_1: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc: addCloudinaryUrlTransformation(
