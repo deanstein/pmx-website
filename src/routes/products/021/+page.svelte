@@ -6,6 +6,7 @@
 		JDGImageCarousel
 	} from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
+	import { accentColorBar } from '$lib/shared-styles';
 </script>
 
 <JDGContentContainer>
@@ -25,7 +26,7 @@
 			<div class="flex-container-right">
 				<div class="right-panel-container">
 					<div class="right-panel-section">
-						<div class="right-panel-heading">MODEL 021A</div>
+						<div class="right-panel-heading {accentColorBar}">MODEL 021A</div>
 						<span>
 							The Denver Cityscape features over 70 of Denver's most iconic buildings at 1:5280
 							scale.
@@ -38,7 +39,7 @@
 						</span>
 					</div>
 					<div class="right-panel-section">
-						<div class="right-panel-heading">DETAILS</div>
+						<div class="right-panel-heading {accentColorBar}">DETAILS</div>
 						<span>
 							Dimensions: 7.00"W x 2.50"D x 1.85"H
 							<br />
@@ -46,12 +47,27 @@
 						</span>
 					</div>
 					<div class="right-panel-section">
-						<div class="right-panel-heading">LEGENDS</div>
-						<span> ... </span>
+						<div class="right-panel-heading {accentColorBar}">LEGENDS</div>
+						<div>
+							Version 1.3.x or 1.4.x
+							<br />
+							Version 1.5.x or 1.10.x
+							<br />
+							Version 1.11.x or 1.12.x
+							<br />
+							Version 1.13.x
+							<br />
+							Version 2.1.x
+							<br />
+							Version 2.2.x
+						</div>
 					</div>
 					<div class="right-panel-section">
-						<div class="right-panel-heading">AVAILABILITY</div>
-						<span> ... </span>
+						<div class="right-panel-heading {accentColorBar}">AVAILABILITY</div>
+						<div class="icon-link">
+							<i class="fa-solid fa-caret-down" />
+							<span>DOWNLOAD FROM CGTRADER</span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -88,7 +104,10 @@
 	.right-panel-heading {
 		font-size: 1.25em;
 		padding: 0 10px 0 10px;
-		background-color: black;
-		color: white;
+	}
+
+	.icon-link {
+		display: flex;
+		gap: 5px;
 	}
 </style>
