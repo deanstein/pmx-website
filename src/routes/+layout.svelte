@@ -9,6 +9,7 @@
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import { pageMeta, sharedUrls } from '$lib/shared-strings';
+	import { accentColorBar } from '$lib/shared-styles';
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
@@ -68,6 +69,9 @@
 
 	<slot />
 
+	<div class="footer-accent-bar {accentColorBar}">
+		Harnessing algorithms to iterate prototypes into products
+	</div>
 	<JDGFooter
 		repoName={pmx3dWebsiteRepoName}
 		{appVersion}
@@ -77,3 +81,10 @@
 		copyright="PARAMETRIX3D, LLC"
 	></JDGFooter>
 </JDGAppContainer>
+
+<style>
+	.footer-accent-bar {
+		padding: 10px;
+		text-align: center;
+	}
+</style>
