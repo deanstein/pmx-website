@@ -1,12 +1,16 @@
 <script>
 	import { JDGContentBoxFloating, JDGContentContainer, JDGImageCarousel } from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import { accentColorBar } from '$lib/shared-styles';
+	import { accentColors } from '$lib/shared-styles';
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating title="DENVER CITYSCAPE" subtitle="Denver in the palm of your hands">
+	<JDGContentBoxFloating
+		title="DENVER CITYSCAPE"
+		titleColor={accentColors[2]}
+		subtitle="Denver in the palm of your hands"
+	>
 		<div class="pmx-product-container-flex">
 			<div class="flex-container-left">
 				<JDGImageCarousel

@@ -9,7 +9,7 @@
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import { pageMeta, sharedUrls } from '$lib/shared-strings';
-	import { accentColorBar } from '$lib/shared-styles';
+	import { accentColorBar, accentColors } from '$lib/shared-styles';
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
@@ -55,7 +55,9 @@
 <MetaTags {...metaTags} />
 <JDGAppContainer
 	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
-	accentColors={['#C4C4C4', '#707070FF', '#2A2A2A']}
+	{accentColors}
+	linkColorDefault={accentColors[1]}
+	linkColorContrastAdjustment={4}
 	showHeaderStripes={false}
 	fontFamily="Goldman"
 >
