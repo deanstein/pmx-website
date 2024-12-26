@@ -23,6 +23,7 @@
 					showCaption={false}
 					showAttribution={false}
 					showBlurInUnfilledSpace={false}
+                    justifyContent='right'
 				/>
 			</div>
 			<div class="flex-container-right">
@@ -55,10 +56,12 @@
 						Version 2.2.x
 					</ProductDetailsSection>
 					<ProductDetailsSection sectionTitle="AVAILABILITY">
-						<div class="icon-link">
+                        <a href="https://www.cgtrader.com/3d-print-models/house/other/denver-cityscape" target="_blank" class="no-initial-highlight">
+						<div class="icon-and-text">
 							<i class="fa-solid fa-caret-down" />
 							<span>DOWNLOAD FROM CGTRADER</span>
 						</div>
+                        </a>
 					</ProductDetailsSection>
 				</div>
 			</div>
@@ -70,10 +73,13 @@
 	.pmx-product-container-flex {
 		display: flex;
 		flex-direction: row;
+        justify-content: center;
+        gap: 20px;
 	}
 
 	.flex-container-left {
-		flex: 1;
+		display: flex;
+		justify-content: right;
 	}
 
 	.flex-container-right {
@@ -86,7 +92,7 @@
 		gap: 40px;
 	}
 
-	.icon-link {
+	.icon-and-text {
 		display: flex;
 		gap: 5px;
 	}
