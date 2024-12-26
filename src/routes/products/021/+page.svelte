@@ -116,6 +116,7 @@
 	.flex-container-left {
 		display: flex;
 		justify-content: right;
+        align-items: baseline;
 	}
 
 	.flex-container-right {
