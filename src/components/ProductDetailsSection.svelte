@@ -25,6 +25,6 @@
 
 	.right-panel-content {
 		line-height: 1.3;
-        padding: 0 10px 0 10px;
+		padding: 0 10px 0 10px;
 	}
 </style>
