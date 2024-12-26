@@ -3,6 +3,7 @@
 	import imageAttributesCollection from '../../image-attributes-collection';
 	import { accentColors } from '$lib/shared-styles';
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
+	import UpNext from '../../../components/UpNext.svelte';
 </script>
 
 <JDGContentContainer>
@@ -103,6 +104,7 @@
 			</div>
 		</div></JDGContentBoxFloating
 	>
+	<UpNext />
 </JDGContentContainer>
 
 <style>
@@ -116,7 +118,7 @@
 	.flex-container-left {
 		display: flex;
 		justify-content: right;
-        align-items: baseline;
+		align-items: baseline;
 	}
 
 	.flex-container-right {
