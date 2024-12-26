@@ -24,6 +24,6 @@
 	}
 
 	.right-panel-content {
-		line-height: 1.25;
+		line-height: 1.3;
 	}
 </style>
