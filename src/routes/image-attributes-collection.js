@@ -94,8 +94,7 @@ const imageAttributesCollection = {
 			imgSrc: addCloudinaryUrlTransformation(
 				'https://res.cloudinary.com/jdg-main/image/upload/v1734578666/pmx-website/021A-1.jpg'
 			),
-			imgCaption: 'Denver Cityscape',
-			allowBackgroundBlur: false
+			imgCaption: 'Denver Cityscape'
 		})
 	),
 	cityscape_021A_2: postProcessImageAttributes(
