@@ -23,7 +23,8 @@
 					showCaption={false}
 					showAttribution={false}
 					showBlurInUnfilledSpace={false}
-                    justifyContent='right'
+					justifyContent="right"
+					activeThumbnailColor={accentColors[2]}
 				/>
 			</div>
 			<div class="flex-container-right">
@@ -43,25 +44,60 @@
 						Latest version: 2.2.4
 					</ProductDetailsSection>
 					<ProductDetailsSection sectionTitle="LEGENDS">
-						Version 1.3.x or 1.4.x
-						<br />
-						Version 1.5.x or 1.10.x
-						<br />
-						Version 1.11.x or 1.12.x
-						<br />
-						Version 1.13.x
-						<br />
-						Version 2.1.x
-						<br />
-						Version 2.2.x
+						<div class="list-item">
+							<a
+								href="https://parametrix3d.com/assets/20140921v1.03-1.04-denver-cityscape-legend.pdf"
+								target="_blank"
+								class="no-initial-highlight">Version 1.3.x or 1.4.x</a
+							>
+						</div>
+						<div class="list-item">
+							<a
+								href="https://parametrix3d.com/assets/20150204v1.05-1.10-denver-cityscape-legend.pdf"
+								target="_blank"
+								class="no-initial-highlight">Version 1.5.x or 1.10.x</a
+							>
+						</div>
+						<div class="list-item">
+							<a
+								href="https://parametrix3d.com/assets/20150402v1.11-1.12-denver-cityscape-legend.pdf"
+								target="_blank"
+								class="no-initial-highlight">Version 1.11.x or 1.12.x</a
+							>
+						</div>
+						<div class="list-item">
+							<a
+								href="https://parametrix3d.com/assets/20151229v1.13-denver-cityscape-legend.pdf"
+								target="_blank"
+								class="no-initial-highlight">Version 1.13.x</a
+							>
+						</div>
+						<div class="list-item">
+							<a
+								href="https://parametrix3d.com/assets/20160213v2.01-denver-cityscape-legend.pdf"
+								target="_blank"
+								class="no-initial-highlight">Version 2.1.x</a
+							>
+						</div>
+						<div class="list-item">
+							<a
+								href="https://parametrix3d.com/assets/20161031v2.02-denver-cityscape-legend.pdf"
+								target="_blank"
+								class="no-initial-highlight">Version 2.2.x</a
+							>
+						</div>
 					</ProductDetailsSection>
 					<ProductDetailsSection sectionTitle="AVAILABILITY">
-                        <a href="https://www.cgtrader.com/3d-print-models/house/other/denver-cityscape" target="_blank" class="no-initial-highlight">
-						<div class="icon-and-text">
-							<i class="fa-solid fa-caret-down" />
-							<span>DOWNLOAD FROM CGTRADER</span>
-						</div>
-                        </a>
+						<a
+							href="https://www.cgtrader.com/3d-print-models/house/other/denver-cityscape"
+							target="_blank"
+							class="no-initial-highlight"
+						>
+							<div class="icon-and-text">
+								<i class="fa-solid fa-caret-down" />
+								<span>DOWNLOAD FROM CGTRADER</span>
+							</div>
+						</a>
 					</ProductDetailsSection>
 				</div>
 			</div>
@@ -73,8 +109,8 @@
 	.pmx-product-container-flex {
 		display: flex;
 		flex-direction: row;
-        justify-content: center;
-        gap: 20px;
+		justify-content: center;
+		gap: 20px;
 	}
 
 	.flex-container-left {
@@ -95,5 +131,9 @@
 	.icon-and-text {
 		display: flex;
 		gap: 5px;
+	}
+
+	.list-item {
+		line-height: 2;
 	}
 </style>
