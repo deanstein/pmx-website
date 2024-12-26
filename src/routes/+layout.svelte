@@ -57,7 +57,7 @@
 	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
 	{accentColors}
 	linkColorDefault={accentColors[1]}
-	linkColorContrastAdjustment={4}
+	linkColorContrastAdjustment={8}
 	showHeaderStripes={false}
 	fontFamily="Goldman"
 >
