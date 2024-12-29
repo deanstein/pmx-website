@@ -4,26 +4,26 @@
 	export let sectionTitle = 'PRODUCT SECTION';
 </script>
 
-<div class="right-panel-section">
-	<div class="right-panel-heading {accentColorBar}">{sectionTitle}</div>
-	<div class="right-panel-content">
+<div class="pmx-product-detail-section">
+	<div class="product-detail-heading {accentColorBar}">{sectionTitle}</div>
+	<div class="product-detail-content">
 		<slot />
 	</div>
 </div>
 
 <style>
-	.right-panel-section {
+	.pmx-product-detail-section {
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
 	}
 
-	.right-panel-heading {
+	.product-detail-heading {
 		font-size: 1.25em;
 		padding: 0 10px 0 10px;
 	}
 
-	.right-panel-content {
+	.product-detail-content {
 		line-height: 1.3;
 		padding: 0 10px 0 10px;
 	}
