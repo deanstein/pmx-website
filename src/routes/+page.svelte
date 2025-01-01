@@ -55,14 +55,14 @@
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGGridLayout>
 			<JDGImageTile
-				label={pageMeta.products.cityscape_021.title.toUpperCase()}
+				label={pageMeta.products.CITYSCAPE_021.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.cityscape_021A_0}
-				href={pageMeta.products.cityscape_021.url}
+				href={pageMeta.products.CITYSCAPE_021.href}
 			/>
 			<JDGImageTile
-				label={pageMeta.products.puzzle_030.title.toUpperCase()}
+				label={pageMeta.products.PUZZLE_030.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.puzzle_decor_030A_0}
-				href={pageMeta.products.puzzle_030.url}
+				href={pageMeta.products.PUZZLE_030.href}
 			/>
 			<JDGImageTile
 				label={'ADVANCED PLANTER'}

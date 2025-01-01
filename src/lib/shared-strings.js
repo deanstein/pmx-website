@@ -18,23 +18,23 @@ export const pageMeta = {
 	about: {
 		title: 'About',
 		description: 'About PMX3D',
-		url: '/about'
+		href: '/about'
 	},
 	contact: {
 		title: 'Contact',
 		description: 'Contact PMX3D',
-		url: '/contact'
+		href: '/contact'
 	},
 	products: {
-		cityscape_021: {
+		CITYSCAPE_021: {
 			title: 'Denver Cityscape',
 			description: 'The Denver Cityscape by PMX3D',
-			url: '/products/021'
+			href: '/products/021'
 		},
-		puzzle_030: {
+		PUZZLE_030: {
 			title: 'Puzzle Decor',
 			description: 'Puzzle Decor by PMX3D',
-			url: '/products/030'
+			href: '/products/030'
 		}
 	}
 };

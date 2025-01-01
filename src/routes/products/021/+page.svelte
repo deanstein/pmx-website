@@ -10,7 +10,7 @@
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
-		title={pageMeta.products.cityscape_021.title.toUpperCase()}
+		title={pageMeta.products.CITYSCAPE_021.title.toUpperCase()}
 		titleColor={accentColors[2]}
 		subtitle="Denver in the palm of your hands"
 	>
