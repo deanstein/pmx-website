@@ -13,7 +13,14 @@
 		titleColor={accentColors[2]}
 		subtitle="Denver in the palm of your hands"
 	>
-		<ProductTypeContainer>
+		<ProductTypeContainer
+			imageAttributeObjects={[
+				imageAttributesCollection.cityscape_021A_1,
+				imageAttributesCollection.cityscape_021A_2,
+				imageAttributesCollection.cityscape_021A_3,
+				imageAttributesCollection.cityscape_021A_4
+			]}
+		>
 			<ProductDetailsSection sectionTitle="MODEL 021">
 				The Denver Cityscape features over 70 of Denver's most iconic buildings at 1:5280 scale.
 				<br /><br />
