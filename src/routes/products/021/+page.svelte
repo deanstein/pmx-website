@@ -21,7 +21,7 @@
 				imageAttributesCollection.cityscape_021A_4
 			]}
 		>
-			<ProductDetailsSection sectionTitle="MODEL 021">
+			<ProductDetailsSection sectionTitle="MODEL 021A">
 				The Denver Cityscape features over 70 of Denver's most iconic buildings at 1:5280 scale.
 				<br /><br />
 				Our custom algorithm approximates the building locations based on actual addresses, then adjusts
