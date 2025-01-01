@@ -13,5 +13,5 @@
 	item2ObjectPosition="right"
 	item3Label="GET IN TOUCH"
 	item3Href="/contact"
-	item3ImageAttributes={imageAttributesCollection.COASTER_028A_0}
+	item3ImageAttributes={imageAttributesCollection.products.COASTER_028A_0}
 />
