@@ -18,7 +18,7 @@ export const load = ({ url }) => {
 			description: pageMeta.home.description,
 			images: [
 				{
-					url: imageAttributesCollection.cityscape_021A_0.imgSrc,
+					url: imageAttributesCollection.products.CITYSCAPE_021A_0.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'

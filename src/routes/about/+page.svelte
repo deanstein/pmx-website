@@ -38,7 +38,7 @@
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE CREATE SOPHISTICATED DESIGNS" textColor={jdgColors.text} />
 		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.cityscape_021A_multiple_1}
+			imageAttributes={imageAttributesCollection.products.CITYSCAPE_021A_multiple_1}
 			maxHeight="300px"
 		/>
 		<JDGBodyCopy paddingTop="0">

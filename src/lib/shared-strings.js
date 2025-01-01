@@ -31,7 +31,7 @@ export const pageMeta = {
 			description: 'The Denver Cityscape by PMX3D',
 			href: '/products/021'
 		},
-		PUZZLE_030: {
+		DECOR_030: {
 			title: 'Puzzle Decor',
 			description: 'Puzzle Decor by PMX3D',
 			href: '/products/030'

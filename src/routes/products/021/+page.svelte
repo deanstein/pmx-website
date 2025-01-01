@@ -16,10 +16,10 @@
 	>
 		<ProductTypeContainer
 			imageAttributeObjects={[
-				imageAttributesCollection.cityscape_021A_1,
-				imageAttributesCollection.cityscape_021A_2,
-				imageAttributesCollection.cityscape_021A_3,
-				imageAttributesCollection.cityscape_021A_4
+				imageAttributesCollection.products.CITYSCAPE_021A_1,
+				imageAttributesCollection.products.CITYSCAPE_021A_2,
+				imageAttributesCollection.products.CITYSCAPE_021A_3,
+				imageAttributesCollection.products.CITYSCAPE_021A_4
 			]}
 		>
 			<ProductDetailsSection sectionTitle="MODEL 021A">
