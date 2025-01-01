@@ -5,11 +5,12 @@
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
 	import UpNext from '../../../components/UpNext.svelte';
 	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
+	import { pageMeta } from '$lib/shared-strings';
 </script>
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
-		title="DENVER CITYSCAPE"
+		title={pageMeta.products.cityscape_021.title.toUpperCase()}
 		titleColor={accentColors[2]}
 		subtitle="Denver in the palm of your hands"
 	>

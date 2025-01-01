@@ -44,7 +44,7 @@
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.cityscape_021A_0}
+		imageAttributes={imageAttributesCollection.grinder_039A_0}
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 		primaryText="PARAMETRIX3D"
 		secondaryText={'HUMAN DESIGNED &nbsp&nbsp |  &nbsp&nbsp CODE GENERATED  &nbsp&nbsp |  &nbsp&nbsp MACHINE PRINTED'}
@@ -55,14 +55,14 @@
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGGridLayout>
 			<JDGImageTile
-				label={'DENVER CITYSCAPE'}
+				label={pageMeta.products.cityscape_021.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.cityscape_021A_0}
 				href={pageMeta.products.cityscape_021.url}
 			/>
 			<JDGImageTile
-				label={'PUZZLE DECOR'}
+				label={pageMeta.products.puzzle_030.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.puzzle_decor_030A_0}
-				href="http://www.parametrix3d.com/030.html"
+				href={pageMeta.products.puzzle_030.url}
 			/>
 			<JDGImageTile
 				label={'ADVANCED PLANTER'}
