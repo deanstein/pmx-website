@@ -1,12 +1,12 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
 	import { pageMeta } from '$lib/shared-strings';
-    
-    import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
-    import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-    import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
+
+	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
+	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
+	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
 	import UpNext from '../../../components/UpNext.svelte';
-    import { accentColors } from '$lib/shared-styles';
+	import { accentColors } from '$lib/shared-styles';
 </script>
 
 <JDGContentContainer>

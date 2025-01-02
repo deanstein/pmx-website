@@ -1,12 +1,12 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
 	import { pageMeta } from '$lib/shared-strings';
-    
-    import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
-    import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-    import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
+
+	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
+	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
+	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
 	import UpNext from '../../../components/UpNext.svelte';
-    import { accentColors } from '$lib/shared-styles';
+	import { accentColors } from '$lib/shared-styles';
 </script>
 
 <JDGContentContainer>
@@ -23,11 +23,12 @@
 			]}
 		>
 			<ProductDetailsSection sectionTitle="MODEL 003F">
-				A simple cuboid shape, enhanced with a hidden aeration system and overflow protection reservoir.
+				A simple cuboid shape, enhanced with a hidden aeration system and overflow protection
+				reservoir.
 				<br /><br />
 				Optionally features a subtle exterior relief pattern.
-                <br><br>
-                Other sizes and proportions available below.
+				<br /><br />
+				Other sizes and proportions available below.
 			</ProductDetailsSection>
 			<ProductDetailsSection sectionTitle="DETAILS">
 				Dimensions: 4.00"W x 4.00"D x 3.69"H
