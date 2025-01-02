@@ -65,9 +65,9 @@
 				href={pageMeta.products.DECOR_030.href}
 			/>
 			<JDGImageTile
-				label={'ADVANCED PLANTER'}
+				label={pageMeta.products.PLANTER_003.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.PLANTER_003F_0}
-				href="http://www.parametrix3d.com/003.html"
+				href={pageMeta.products.PLANTER_003.href}
 			/>
 			<JDGImageTile
 				label={'PEN HOLDER'}
