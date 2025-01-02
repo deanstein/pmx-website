@@ -96,14 +96,3 @@
 	</JDGContentBoxFloating>
 	<UpNext />
 </JDGContentContainer>
-
-<style>
-	.icon-and-text {
-		display: flex;
-		gap: 5px;
-	}
-
-	.list-item {
-		line-height: 2;
-	}
-</style>

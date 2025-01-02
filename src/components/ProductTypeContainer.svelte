@@ -33,6 +33,15 @@
 </div>
 
 <style>
+	:global(.icon-and-text) {
+		display: flex;
+		gap: 5px;
+	}
+
+	:global(.list-item) {
+		line-height: 2;
+	}
+
 	.pmx-product-type-flex-container {
 		display: flex;
 		flex-direction: row;
