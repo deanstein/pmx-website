@@ -95,7 +95,7 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1734578666/pmx-website/products/021A-1.jpg'
 				),
-				imgCaption: 'Denver Cityscape'
+				imgCaption: 'The Denver Cityscape'
 			})
 		),
 		CITYSCAPE_021A_2: postProcessImageAttributes(
@@ -103,7 +103,7 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1734578666/pmx-website/products/021A-2.jpg'
 				),
-				imgCaption: 'Denver Cityscape'
+				imgCaption: 'The Denver Cityscape'
 			})
 		),
 		CITYSCAPE_021A_3: postProcessImageAttributes(
@@ -111,7 +111,7 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1734578666/pmx-website/products/021A-3.jpg'
 				),
-				imgCaption: 'Denver Cityscape'
+				imgCaption: 'The Denver Cityscape'
 			})
 		),
 		CITYSCAPE_021A_4: postProcessImageAttributes(
@@ -119,7 +119,8 @@ const imageAttributesCollection = {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1734578666/pmx-website/products/021A-4.jpg'
 				),
-				imgCaption: 'Denver Cityscape'
+				imgCaption:
+					'The back of the Denver Cityscape displays numbers for each building, which can be referenced with the legend for each version to reveal building name and address.'
 			})
 		),
 		CITYSCAPE_021A_multiple_1: postProcessImageAttributes(
