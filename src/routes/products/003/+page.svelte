@@ -20,16 +20,49 @@
 			activeProductId="003F"
 			productTypeIds={['003D', '003F']}
 			productTypeThumbnailImageAttributes={[
-				imageAttributesCollection.products.PLANTER_003F_0,
-				imageAttributesCollection.products.PEN_HOLDER_008I_0
+				imageAttributesCollection.products.PLANTER_003D_1,
+				imageAttributesCollection.products.PLANTER_003F_0
 			]}
 		>
 			<ProductTypeContainer
+				productId="003D"
+				imageAttributeObjects={[
+					imageAttributesCollection.products.PLANTER_003D_1,
+					imageAttributesCollection.products.PLANTER_003D_2,
+					imageAttributesCollection.products.PLANTER_003D_3
+				]}
+			>
+				<ProductDetailsSection sectionTitle="MODEL 003D">
+					A blended pentagon-based form, small enough for windowsills.
+					<br /><br />
+					Features an overflow protection reservoir.
+					<br /><br />
+					Available with choice of exterior relief patterns.
+				</ProductDetailsSection>
+				<ProductDetailsSection sectionTitle="DETAILS">
+					Dimensions: 4.71"W x 4.71"D x 3.21"H
+					<br />
+					Latest version: v1.10.5
+				</ProductDetailsSection>
+				<ProductDetailsSection sectionTitle="AVAILABILITY">
+					<a
+						href="https://www.cgtrader.com/3d-print-models/house/decor/030a-decorative-sphere-puzzle"
+						target="_blank"
+						class="no-initial-highlight"
+					>
+						<div class="icon-and-text">
+							<i class="fa-solid fa-caret-down" />
+							<span>DOWNLOAD FROM CGTRADER</span>
+						</div>
+					</a>
+				</ProductDetailsSection>
+			</ProductTypeContainer>
+			<ProductTypeContainer
 				productId="003F"
 				imageAttributeObjects={[
-					imageAttributesCollection.products.DECOR_030A_1,
-					imageAttributesCollection.products.DECOR_030A_2,
-					imageAttributesCollection.products.DECOR_030A_3
+					imageAttributesCollection.products.PLANTER_003F_1,
+					imageAttributesCollection.products.PLANTER_003F_2,
+					imageAttributesCollection.products.PLANTER_003F_3
 				]}
 			>
 				<ProductDetailsSection sectionTitle="MODEL 003F">
@@ -58,7 +91,6 @@
 					</a>
 				</ProductDetailsSection>
 			</ProductTypeContainer>
-			<ProductTypeContainer productId="003D" />
 		</ProductTypeSelector>
 	</JDGContentBoxFloating>
 	<UpNext />

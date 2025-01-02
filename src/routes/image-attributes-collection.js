@@ -42,6 +42,30 @@ const imageAttributesCollection = {
 		})
 	),
 	products: {
+		PLANTER_003D_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735858459/pmx-website/products/003D-1.jpg'
+				),
+				imgCaption: 'Advanced Planter'
+			})
+		),
+		PLANTER_003D_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735858459/pmx-website/products/003D-2.jpg'
+				),
+				imgCaption: 'Advanced Planter'
+			})
+		),
+		PLANTER_003D_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735858459/pmx-website/products/003D-3.jpg'
+				),
+				imgCaption: 'Advanced Planter'
+			})
+		),
 		PLANTER_003F_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -53,7 +77,23 @@ const imageAttributesCollection = {
 		PLANTER_003F_1: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1726422539/pmx-website/products/003F-1.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735858270/pmx-website/products/003F-1.jpg'
+				),
+				imgCaption: 'Advanced Planter'
+			})
+		),
+		PLANTER_003F_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735858270/pmx-website/products/003F-2.jpg'
+				),
+				imgCaption: 'Advanced Planter'
+			})
+		),
+		PLANTER_003F_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735858270/pmx-website/products/003F-3.jpg'
 				),
 				imgCaption: 'Advanced Planter'
 			})
