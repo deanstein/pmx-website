@@ -26,6 +26,11 @@ export const pageMeta = {
 		href: '/contact'
 	},
 	products: {
+		PLANTER_003: {
+			title: 'Advanced Planter',
+			description: 'The Advanced Planter by PMX3D',
+			href: '/products/003'
+		},
 		CITYSCAPE_021: {
 			title: 'Denver Cityscape',
 			description: 'The Denver Cityscape by PMX3D',
