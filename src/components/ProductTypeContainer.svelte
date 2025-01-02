@@ -1,6 +1,10 @@
 <script>
-	import { JDGImageCarousel } from 'jdg-ui-svelte';
+	import { css } from '@emotion/css';
+
 	import imageAttributesCollection from '../routes/image-attributes-collection';
+	import { jdgBreakpoints } from 'jdg-ui-svelte/jdg-shared-styles.js';
+
+	import { JDGImageCarousel } from 'jdg-ui-svelte';
 	import { accentColors } from '$lib/shared-styles';
 
 	export let imageAttributeObjects = [
@@ -9,10 +13,24 @@
 		imageAttributesCollection.products.CITYSCAPE_021A_3,
 		imageAttributesCollection.products.CITYSCAPE_021A_4
 	];
+
+	const productTypeContainerCss = css`
+		@media (max-width: ${jdgBreakpoints.width[0].toString() + jdgBreakpoints.unit}) {
+			flex-direction: column;
+		}
+		@media (min-width: ${jdgBreakpoints.width[0].toString() +
+			jdgBreakpoints.unit}) and (max-width: ${jdgBreakpoints.width[1].toString() +
+			jdgBreakpoints.unit}) {
+			flex-direction: row;
+		}
+		@media (min-width: ${jdgBreakpoints.width[1].toString() + jdgBreakpoints.unit}) {
+			flex-direction: row;
+		}
+	`;
 </script>
 
 <!-- product detail contains an image carousel and a series of product detail sections -->
-<div class="pmx-product-type-flex-container">
+<div class="pmx-product-type-flex-container {productTypeContainerCss}">
 	<div class="flex-container-left">
 		<JDGImageCarousel
 			{imageAttributeObjects}
@@ -44,7 +62,6 @@
 
 	.pmx-product-type-flex-container {
 		display: flex;
-		flex-direction: row;
 		justify-content: center;
 		gap: 20px;
 	}
