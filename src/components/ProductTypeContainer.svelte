@@ -7,6 +7,7 @@
 	import { JDGImageCarousel } from 'jdg-ui-svelte';
 	import { accentColors } from '$lib/shared-styles';
 
+	export let productId = undefined; // optional, for use in ProductTypeSelector parent component (if multiple types)
 	export let imageAttributeObjects = [
 		imageAttributesCollection.products.CITYSCAPE_021A_1,
 		imageAttributesCollection.products.CITYSCAPE_021A_2,
@@ -30,7 +31,7 @@
 </script>
 
 <!-- product detail contains an image carousel and a series of product detail sections -->
-<div class="pmx-product-type-flex-container {productTypeContainerCss}">
+<div id={productId ?? '000X'} class="pmx-product-type-flex-container {productTypeContainerCss}">
 	<div class="flex-container-left">
 		<JDGImageCarousel
 			{imageAttributeObjects}
