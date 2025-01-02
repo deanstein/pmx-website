@@ -1,11 +1,12 @@
 <script>
-	import { JDGContentBoxFloating, JDGContentContainer, JDGImageCarousel } from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import { accentColors } from '$lib/shared-styles';
-	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-	import UpNext from '../../../components/UpNext.svelte';
-	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
 	import { pageMeta } from '$lib/shared-strings';
+    
+    import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
+    import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
+    import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
+	import UpNext from '../../../components/UpNext.svelte';
+    import { accentColors } from '$lib/shared-styles';
 </script>
 
 <JDGContentContainer>
@@ -29,7 +30,7 @@
 			<ProductDetailsSection sectionTitle="DETAILS">
 				Dimensions: 4.00"W x 4.00"D x 4.00"H
 				<br />
-				Latest version: 1.0.4
+				Latest version: v1.0.4
 			</ProductDetailsSection>
 			<ProductDetailsSection sectionTitle="AVAILABILITY">
 				<a
