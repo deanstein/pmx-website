@@ -146,6 +146,30 @@ const imageAttributesCollection = {
 				imgCaption: 'Puzzle Decor'
 			})
 		),
+		DECOR_030A_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735783263/pmx-website/products/030A-1.jpg'
+				),
+				imgCaption: 'Puzzle Decor'
+			})
+		),
+		DECOR_030A_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735783263/pmx-website/products/030A-2.jpg'
+				),
+				imgCaption: 'Puzzle Decor'
+			})
+		),
+		DECOR_030A_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735783263/pmx-website/products/030A-3.jpg'
+				),
+				imgCaption: 'Puzzle Decor'
+			})
+		),
 		GRINDER_039A_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
