@@ -70,9 +70,9 @@
 				href={pageMeta.products.PLANTER_003.href}
 			/>
 			<JDGImageTile
-				label={'PEN HOLDER'}
+				label={pageMeta.products.PEN_HOLDER_008.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.PEN_HOLDER_008I_0}
-				href="http://www.parametrix3d.com/008.html"
+				href={pageMeta.products.PEN_HOLDER_008.href}
 			/>
 			<JDGImageTile
 				label={'CARD HOLDER'}

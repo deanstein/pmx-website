@@ -31,6 +31,11 @@ export const pageMeta = {
 			description: 'The Advanced Planter by PMX3D',
 			href: '/products/003'
 		},
+		PEN_HOLDER_008: {
+			title: 'Pen Holder',
+			description: 'The Pen Holder by PMX3D',
+			href: '/products/008'
+		},
 		CITYSCAPE_021: {
 			title: 'Denver Cityscape',
 			description: 'The Denver Cityscape by PMX3D',

@@ -106,10 +106,50 @@ const imageAttributesCollection = {
 				imgCaption: 'Kitchen Holder'
 			})
 		),
+		PEN_HOLDER_008A_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735921146/pmx-website/products/008A-1.jpg'
+				),
+				imgCaption: 'Pen Holder'
+			})
+		),
+		PEN_HOLDER_008A_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735921146/pmx-website/products/008A-2.jpg'
+				),
+				imgCaption: 'Pen Holder'
+			})
+		),
+		PEN_HOLDER_008F_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735921339/pmx-website/products/008F-1.jpg'
+				),
+				imgCaption: 'Pen Holder'
+			})
+		),
+		PEN_HOLDER_008F_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735921339/pmx-website/products/008F-2.jpg'
+				),
+				imgCaption: 'Pen Holder'
+			})
+		),
 		PEN_HOLDER_008I_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1723693771/pmx-website/products/008I-0.jpg'
+				),
+				imgCaption: 'Pen Holder'
+			})
+		),
+		PEN_HOLDER_008I_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1735921373/pmx-website/products/008I-1.jpg'
 				),
 				imgCaption: 'Pen Holder'
 			})
