@@ -1,3 +1,10 @@
+export const sharedStrings = {
+	availability: 'AVAILABILITY',
+	details: 'DETAILS',
+	downloadFaIconClass: 'fa-solid fa-caret-down',
+	downloadCGTrader: 'DOWNLOAD FROM CGTRADER'
+};
+
 export const sharedStyles = {
 	overlayColorDarkRgba: 'rgba(50, 50, 50, 0.8)'
 };

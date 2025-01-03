@@ -1,6 +1,6 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta } from '$lib/shared-strings';
+	import { pageMeta, sharedStrings } from '$lib/shared-strings';
 
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
@@ -39,22 +39,16 @@
 					<br /><br />
 					Available with choice of exterior relief patterns.
 				</ProductDetailsSection>
-				<ProductDetailsSection sectionTitle="DETAILS">
+				<ProductDetailsSection sectionTitle={sharedStrings.details}>
 					Dimensions: 4.71"W x 4.71"D x 3.21"H
 					<br />
 					Latest version: v1.10.5
 				</ProductDetailsSection>
-				<ProductDetailsSection sectionTitle="AVAILABILITY">
-					<a
-						href="https://www.cgtrader.com/3d-print-models/house/decor/030a-decorative-sphere-puzzle"
-						target="_blank"
-						class="no-initial-highlight"
-					>
-						<div class="icon-and-text">
-							<i class="fa-solid fa-caret-down" />
-							<span>DOWNLOAD FROM CGTRADER</span>
-						</div>
-					</a>
+				<ProductDetailsSection sectionTitle={sharedStrings.availability}>
+					<div class="icon-and-text">
+						<i class={sharedStrings.downloadFaIconClass} />
+						<span>{sharedStrings.downloadCGTrader}</span>
+					</div>
 				</ProductDetailsSection>
 			</ProductTypeContainer>
 			<ProductTypeContainer
@@ -73,20 +67,20 @@
 					<br /><br />
 					Other sizes and proportions available below.
 				</ProductDetailsSection>
-				<ProductDetailsSection sectionTitle="DETAILS">
+				<ProductDetailsSection sectionTitle={sharedStrings.details}>
 					Dimensions: 4.00"W x 4.00"D x 3.69"H
 					<br />
 					Latest version: v1.15.4
 				</ProductDetailsSection>
-				<ProductDetailsSection sectionTitle="AVAILABILITY">
+				<ProductDetailsSection sectionTitle={sharedStrings.availability}>
 					<a
 						href="https://www.cgtrader.com/3d-print-models/house/decor/030a-decorative-sphere-puzzle"
 						target="_blank"
 						class="no-initial-highlight"
 					>
 						<div class="icon-and-text">
-							<i class="fa-solid fa-caret-down" />
-							<span>DOWNLOAD FROM CGTRADER</span>
+							<i class={sharedStrings.downloadFaIconClass} />
+							<span>{sharedStrings.downloadCGTrader}</span>
 						</div>
 					</a>
 				</ProductDetailsSection>

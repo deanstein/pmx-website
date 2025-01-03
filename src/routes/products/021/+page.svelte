@@ -1,6 +1,6 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta } from '$lib/shared-strings';
+	import { pageMeta, sharedStrings } from '$lib/shared-strings';
 
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
@@ -32,7 +32,7 @@
 				The Cityscape model is occasionally updated as Denver's skyline changes. Check the version number
 				on the bottom of the product and match it with the legend below.
 			</ProductDetailsSection>
-			<ProductDetailsSection sectionTitle="DETAILS">
+			<ProductDetailsSection sectionTitle={sharedStrings.details}>
 				Dimensions: 7.00"W x 2.50"D x 1.85"H
 				<br />
 				Latest version: v2.2.4
@@ -81,15 +81,15 @@
 					>
 				</div>
 			</ProductDetailsSection>
-			<ProductDetailsSection sectionTitle="AVAILABILITY">
+			<ProductDetailsSection sectionTitle={sharedStrings.availability}>
 				<a
 					href="https://www.cgtrader.com/3d-print-models/house/other/denver-cityscape"
 					target="_blank"
 					class="no-initial-highlight"
 				>
 					<div class="icon-and-text">
-						<i class="fa-solid fa-caret-down" />
-						<span>DOWNLOAD FROM CGTRADER</span>
+						<i class={sharedStrings.downloadFaIconClass} />
+						<span>{sharedStrings.downloadCGTrader}</span>
 					</div>
 				</a>
 			</ProductDetailsSection>

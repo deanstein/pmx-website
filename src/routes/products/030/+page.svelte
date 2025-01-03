@@ -1,6 +1,6 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta } from '$lib/shared-strings';
+	import { pageMeta, sharedStrings } from '$lib/shared-strings';
 
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
@@ -27,20 +27,20 @@
 				<br /><br />
 				Assemble the rings in order from smallest to largest. Orientation is key.
 			</ProductDetailsSection>
-			<ProductDetailsSection sectionTitle="DETAILS">
+			<ProductDetailsSection sectionTitle={sharedStrings.details}>
 				Dimensions: 4.00"W x 4.00"D x 4.00"H
 				<br />
 				Latest version: v1.0.4
 			</ProductDetailsSection>
-			<ProductDetailsSection sectionTitle="AVAILABILITY">
+			<ProductDetailsSection sectionTitle={sharedStrings.availability}>
 				<a
 					href="https://www.cgtrader.com/3d-print-models/house/decor/030a-decorative-sphere-puzzle"
 					target="_blank"
 					class="no-initial-highlight"
 				>
 					<div class="icon-and-text">
-						<i class="fa-solid fa-caret-down" />
-						<span>DOWNLOAD FROM CGTRADER</span>
+						<i class={sharedStrings.downloadFaIconClass} />
+						<span>{sharedStrings.downloadCGTrader}</span>
 					</div>
 				</a>
 			</ProductDetailsSection>
