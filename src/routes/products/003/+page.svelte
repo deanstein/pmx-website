@@ -49,6 +49,33 @@
 						<i class={sharedStrings.downloadFaIconClass} />
 						<span>{sharedStrings.downloadCGTrader}</span>
 					</div>
+					<div class="list-item indented" style="padding-top: 10px;">
+						• <a
+							href="https://www.cgtrader.com/3d-print-models/house/decor/planter-summit-variant"
+							target="_blank"
+							class="no-initial-highlight"
+						>
+							FOREST PATTERN</a
+						>
+					</div>
+					<div class="list-item indented">
+						• <a
+							href="https://www.cgtrader.com/3d-print-models/house/decor/planter-summit-variant"
+							target="_blank"
+							class="no-initial-highlight"
+						>
+							MOUNTAIN PATTERN</a
+						>
+					</div>
+					<div class="list-item indented">
+						• <a
+							href="https://www.cgtrader.com/3d-print-models/house/accessories/planter-stone-variant"
+							target="_blank"
+							class="no-initial-highlight"
+						>
+							ROCK PATTERN</a
+						>
+					</div>
 				</ProductDetailsSection>
 			</ProductTypeContainer>
 			<ProductTypeContainer
@@ -73,16 +100,37 @@
 					Latest version: v1.15.4
 				</ProductDetailsSection>
 				<ProductDetailsSection sectionTitle={sharedStrings.availability}>
-					<a
-						href="https://www.cgtrader.com/3d-print-models/house/decor/030a-decorative-sphere-puzzle"
-						target="_blank"
-						class="no-initial-highlight"
-					>
-						<div class="icon-and-text">
-							<i class={sharedStrings.downloadFaIconClass} />
-							<span>{sharedStrings.downloadCGTrader}</span>
-						</div>
-					</a>
+					<div class="icon-and-text">
+						<i class={sharedStrings.downloadFaIconClass} />
+						<span>{sharedStrings.downloadCGTrader}</span>
+					</div>
+					<div class="list-item indented" style="padding-top: 10px;">
+						• <a
+							href="https://www.cgtrader.com/3d-print-models/house/accessories/planter-cube-medium"
+							target="_blank"
+							class="no-initial-highlight"
+						>
+							003f - NO PATTERN</a
+						>
+					</div>
+					<div class="list-item indented">
+						• <a
+							href="https://www.cgtrader.com/3d-print-models/house/accessories/planter-medium-cuboid-pattern"
+							target="_blank"
+							class="no-initial-highlight"
+						>
+							003f - WITH PATTERN</a
+						>
+					</div>
+					<div class="list-item indented">
+						• <a
+							href="https://www.cgtrader.com/3d-print-models?author=parametrix&keywords=planter+cuboid"
+							target="_blank"
+							class="no-initial-highlight"
+						>
+							OTHER SIZES...</a
+						>
+					</div>
 				</ProductDetailsSection>
 			</ProductTypeContainer>
 		</ProductTypeSelector>

@@ -61,6 +61,10 @@
 		line-height: 2;
 	}
 
+	:global(.indented) {
+		margin-left: 20px;
+	}
+
 	.pmx-product-type-flex-container {
 		display: flex;
 		justify-content: center;
