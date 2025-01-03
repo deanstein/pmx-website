@@ -12,12 +12,16 @@
 	// these are the old Muse website paths
 	// that we'll attempt to redirect to in this error page
 	const redirects = {
-		'/pmx01.html': 'http://parametrix3d.com/007.html',
-		'/pmx02.html': 'http://parametrix3d.com/028.html',
-		'/pmx03.html': 'http://parametrix3d.com/003.html',
-		'/pmx04.html': 'http://parametrix3d.com/021.html',
-		'/pmx05.html': 'http://parametrix3d.com/008.html',
-		'/pmx06.html': 'http://parametrix3d.com/015.html'
+		'/003.html': '/products/003',
+		'/007.html': '/products/007',
+		'/008.html': '/products/008',
+		'/015.html': '/products/015',
+		'/021.html': '/products/021',
+		'/028.html': '/products/028',
+		'/030.html': '/products/030',
+		'/039.html': '/products/039',
+		'/047.html': '/products/047',
+		'/047d.html': '/products/047d'
 	};
 
 	// check for whether the user is trying to access
