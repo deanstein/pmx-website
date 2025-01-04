@@ -299,6 +299,22 @@ const imageAttributesCollection = {
 				imgCaption: 'Herb Grinder'
 			})
 		),
+		MAGNET_CO_047B_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736018862/pmx-website/products/047B-1.jpg'
+				),
+				imgCaption: 'CO Magnet'
+			})
+		),
+		MAGNET_DEN_047C_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736018862/pmx-website/products/047C-1.jpg'
+				),
+				imgCaption: 'DEN Magnet'
+			})
+		),
 		MAGNET_DEN_CO_047BC_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
@@ -311,6 +327,22 @@ const imageAttributesCollection = {
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1723695588/pmx-website/products/047D-0.jpg'
+				),
+				imgCaption: 'Colorado Topography Magnet'
+			})
+		),
+		MAGNET_CO_TOPO_047D_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736019250/pmx-website/products/047D-1.jpg'
+				),
+				imgCaption: 'Colorado Topography Magnet'
+			})
+		),
+		MAGNET_CO_TOPO_047D_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736019251/pmx-website/products/047D-2.jpg'
 				),
 				imgCaption: 'Colorado Topography Magnet'
 			})

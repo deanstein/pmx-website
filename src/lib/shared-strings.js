@@ -80,6 +80,26 @@ export const productMeta = {
 				displayCode: 'a'
 			}
 		}
+	},
+	MAGNET_047: {
+		displayCode: '047',
+		hrefCode: '047',
+		name: 'Geographic Magnet',
+		tagline: 'A magnetic way to show state pride',
+		variants: {
+			B: {
+				displayCode: 'b',
+				name: 'DEN / CO Magnets'
+			},
+			C: {
+				displayCode: 'c',
+				name: 'DEN / CO Magnets'
+			},
+			D: {
+				displayCode: 'd',
+				name: 'CO Topo Magnet'
+			}
+		}
 	}
 };
 
@@ -126,6 +146,11 @@ export const pageMeta = {
 			title: productMeta.DECOR_030.name,
 			description: `The ${productMeta.DECOR_030.name} by PMX3D. ${productMeta.DECOR_030.tagline}.`,
 			href: sharedUrls.productsHref + productMeta.DECOR_030.hrefCode
+		},
+		MAGNET_047: {
+			title: productMeta.MAGNET_047.name,
+			description: `The ${productMeta.MAGNET_047.name} by PMX3D. ${productMeta.MAGNET_047.tagline}.`,
+			href: sharedUrls.productsHref + productMeta.MAGNET_047.hrefCode
 		}
 	}
 };

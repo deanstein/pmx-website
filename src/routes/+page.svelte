@@ -1,6 +1,5 @@
 <script>
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
-	import { pageMeta, sharedStyles } from '$lib/shared-strings';
+	import { pageMeta, productMeta, sharedStyles } from '$lib/shared-strings';
 	import imageAttributesCollection from './image-attributes-collection';
 	import { windowWidth } from 'jdg-ui-svelte/states/ui-state.js';
 	import { breakpointHandler } from 'jdg-ui-svelte/jdg-ui-management.js';
@@ -80,9 +79,9 @@
 				href={pageMeta.products.CARD_HOLDER_015.href}
 			/>
 			<JDGImageTile
-				label={'DEN / CO MAGNETS'}
+				label={productMeta.MAGNET_047.variants.B.name.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.MAGNET_DEN_CO_047BC_0}
-				href="http://www.parametrix3d.com/047.html"
+				href={pageMeta.products.MAGNET_047.href}
 			/>
 			<JDGImageTile
 				label={'CO TOPO MAGNET'}
