@@ -21,7 +21,7 @@
 		'/030.html': '/products/030',
 		'/039.html': '/products/039',
 		'/047.html': '/products/047',
-		'/047d.html': '/products/047d'
+		'/047d.html': '/products/047#d'
 	};
 
 	// check for whether the user is trying to access
