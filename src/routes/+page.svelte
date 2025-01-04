@@ -84,9 +84,11 @@
 				href={pageMeta.products.MAGNET_047.href}
 			/>
 			<JDGImageTile
-				label={'CO TOPO MAGNET'}
+				label={productMeta.MAGNET_047.variants.D.name.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.MAGNET_CO_TOPO_047D_0}
-				href="http://www.parametrix3d.com/047d.html"
+				href={pageMeta.products.MAGNET_047.href +
+					'#' +
+					productMeta.MAGNET_047.variants.D.displayCode}
 			/>
 			<JDGImageTile
 				label={'HERB GRINDER'}

@@ -11,12 +11,8 @@
 
 	let productTypeSelectorRef;
 
-	const setActiveProductType = (productTypeId) => {
-		activeProductId = productTypeId;
-	};
-
 	// show or hide the appropriate product type
-	afterUpdate(() => {
+	const filterProductTypeDisplay = () => {
 		// all top-level children, which should be ProductTypeContainer components
 		const productTypeContainerElements = Array.from(productTypeSelectorRef.children);
 		productTypeContainerElements.forEach((productTypeElement) => {
@@ -26,7 +22,47 @@
 				productTypeElement.style.display = 'none';
 			}
 		});
+	};
+
+	const setActiveProductType = (productTypeId) => {
+		activeProductId = productTypeId;
+		filterProductTypeDisplay();
+	};
+
+	// determine if the URL contains a hash
+	// which would indicate a specific product type is requested via the referring page
+	const getProductTypeLetterFromHash = () => {
+		const hash = window.location.hash;
+		// hash needs to be a single letter only
+		if (hash && hash.length === 2 && /^[a-zA-Z]$/.test(hash[1])) {
+			return hash[1];
+		}
+	};
+
+	const getProductTypeFromLetter = (letter) => {
+		const matches = productTypeIds.filter((element) => element.includes(letter));
+		return matches.length > 0 ? matches[0] : null;
+	};
+
+	afterUpdate(() => {
+		filterProductTypeDisplay();
 	});
+
+	$: {
+		// if the URL contains a hash, the referring page
+		// may be trying to override the default active product type
+		// so set the active product type again just in case
+		if (productTypeSelectorRef && window.location.hash) {
+			const productTypeLetter = getProductTypeLetterFromHash();
+			let foundProductType = undefined;
+			if (productTypeLetter) {
+				foundProductType = getProductTypeFromLetter(productTypeLetter);
+			}
+			if (foundProductType) {
+				setActiveProductType(foundProductType);
+			}
+		}
+	}
 </script>
 
 <div class="pmx-product-type-selector-container">
