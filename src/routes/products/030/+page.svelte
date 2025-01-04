@@ -1,19 +1,23 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, sharedStrings } from '$lib/shared-strings';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
 	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
 	import UpNext from '../../../components/UpNext.svelte';
 	import { accentColors } from '$lib/shared-styles';
+
+	// display model numbers consistently
+	const model030A =
+		productMeta.DECOR_030.displayCode + productMeta.DECOR_030.variants.A.displayCode;
 </script>
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
 		title={pageMeta.products.DECOR_030.title.toUpperCase()}
 		titleColor={accentColors[2]}
-		subtitle="A challenge to assemble, a reward in art"
+		subtitle={productMeta.DECOR_030.tagline}
 	>
 		<ProductTypeContainer
 			imageAttributeObjects={[
@@ -22,7 +26,7 @@
 				imageAttributesCollection.products.DECOR_030A_3
 			]}
 		>
-			<ProductDetailsSection sectionTitle="MODEL 030A">
+			<ProductDetailsSection sectionTitle={`MODEL ${model030A}`}>
 				Six interlocking rings create a modernist decorative sphere.
 				<br /><br />
 				Assemble the rings in order from smallest to largest. Orientation is key.

@@ -1,6 +1,6 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, sharedStrings } from '$lib/shared-strings';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
@@ -8,17 +8,25 @@
 	import ProductTypeSelector from '../../../components/ProductTypeSelector.svelte';
 	import UpNext from '../../../components/UpNext.svelte';
 	import { accentColors } from '$lib/shared-styles';
+
+	// display model numbers consistently
+	const model008A =
+		productMeta.PEN_HOLDER_008.displayCode + productMeta.PEN_HOLDER_008.variants.A.displayCode;
+	const model008F =
+		productMeta.PEN_HOLDER_008.displayCode + productMeta.PEN_HOLDER_008.variants.F.displayCode;
+	const model008I =
+		productMeta.PEN_HOLDER_008.displayCode + productMeta.PEN_HOLDER_008.variants.I.displayCode;
 </script>
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
 		title={pageMeta.products.PEN_HOLDER_008.title.toUpperCase()}
 		titleColor={accentColors[2]}
-		subtitle="Pens always within reach"
+		subtitle={productMeta.PEN_HOLDER_008.tagline}
 	>
 		<ProductTypeSelector
-			activeProductId="008I"
-			productTypeIds={['008A', '008F', '008I']}
+			activeProductId={model008I}
+			productTypeIds={[model008A, model008F, model008I]}
 			productTypeThumbnailImageAttributes={[
 				imageAttributesCollection.products.PEN_HOLDER_008A_1,
 				imageAttributesCollection.products.PEN_HOLDER_008F_1,
@@ -26,13 +34,13 @@
 			]}
 		>
 			<ProductTypeContainer
-				productId="008A"
+				productId={model008A}
 				imageAttributeObjects={[
 					imageAttributesCollection.products.PEN_HOLDER_008A_1,
 					imageAttributesCollection.products.PEN_HOLDER_008A_2
 				]}
 			>
-				<ProductDetailsSection sectionTitle="MODEL 008A">
+				<ProductDetailsSection sectionTitle={`MODEL ${model008A}`}>
 					A beautiful addition to any desk, this pen holder features classic faceted geometry.
 					<br /><br />
 					Designed to fan out your selection of pens and pencils for easy reach. Holds 10 of your favorite
@@ -57,14 +65,14 @@
 				</ProductDetailsSection>
 			</ProductTypeContainer>
 			<ProductTypeContainer
-				productId="008F"
+				productId={model008F}
 				imageAttributeObjects={[
 					imageAttributesCollection.products.PEN_HOLDER_008F_1,
 					imageAttributesCollection.products.PEN_HOLDER_008F_2
 				]}
 			>
-				<ProductDetailsSection sectionTitle="MODEL 008F">
-					A variation on Model 008a, this pen holder features a dynamic wireframe pattern.
+				<ProductDetailsSection sectionTitle={`MODEL ${model008F}`}>
+					A variation on Model {model008A}, this pen holder features a dynamic wireframe pattern.
 					<br /><br />
 					Designed to fan out your selection of pens and pencils for easy reach. Holds 10 of your favorite
 					drawing utensils.
@@ -88,10 +96,10 @@
 				</ProductDetailsSection>
 			</ProductTypeContainer>
 			<ProductTypeContainer
-				productId="008I"
+				productId={model008I}
 				imageAttributeObjects={[imageAttributesCollection.products.PEN_HOLDER_008I_1]}
 			>
-				<ProductDetailsSection sectionTitle="MODEL 008I">
+				<ProductDetailsSection sectionTitle={`MODEL ${model008I}`}>
 					Simple, elegant geometry makes this a classic desk piece.
 					<br /><br />
 					Designed to fan out your selection of pens and pencils for easy reach. Holds 10 of your favorite

@@ -75,9 +75,9 @@
 				href={pageMeta.products.PEN_HOLDER_008.href}
 			/>
 			<JDGImageTile
-				label={'CARD HOLDER'}
+				label={pageMeta.products.CARD_HOLDER_015.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.CARD_HOLDER_015C_0}
-				href="http://www.parametrix3d.com/015.html"
+				href={pageMeta.products.CARD_HOLDER_015.href}
 			/>
 			<JDGImageTile
 				label={'DEN / CO MAGNETS'}

@@ -1,6 +1,6 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, sharedStrings } from '$lib/shared-strings';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
@@ -8,31 +8,37 @@
 	import ProductTypeSelector from '../../../components/ProductTypeSelector.svelte';
 	import UpNext from '../../../components/UpNext.svelte';
 	import { accentColors } from '$lib/shared-styles';
+
+	// display model numbers consistently
+	const model003D =
+		productMeta.PLANTER_003.displayCode + productMeta.PLANTER_003.variants.D.displayCode;
+	const model003F =
+		productMeta.PLANTER_003.displayCode + productMeta.PLANTER_003.variants.F.displayCode;
 </script>
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
 		title={pageMeta.products.PLANTER_003.title.toUpperCase()}
 		titleColor={accentColors[2]}
-		subtitle="Give plants what they want"
+		subtitle={productMeta.PLANTER_003.tagline}
 	>
 		<ProductTypeSelector
-			activeProductId="003F"
-			productTypeIds={['003D', '003F']}
+			activeProductId={model003F}
+			productTypeIds={[model003D, model003F]}
 			productTypeThumbnailImageAttributes={[
 				imageAttributesCollection.products.PLANTER_003D_1,
 				imageAttributesCollection.products.PLANTER_003F_0
 			]}
 		>
 			<ProductTypeContainer
-				productId="003D"
+				productId={model003D}
 				imageAttributeObjects={[
 					imageAttributesCollection.products.PLANTER_003D_1,
 					imageAttributesCollection.products.PLANTER_003D_2,
 					imageAttributesCollection.products.PLANTER_003D_3
 				]}
 			>
-				<ProductDetailsSection sectionTitle="MODEL 003D">
+				<ProductDetailsSection sectionTitle={`MODEL ${model003D}`}>
 					A blended pentagon-based form, small enough for windowsills.
 					<br /><br />
 					Features an overflow protection reservoir.
@@ -79,14 +85,14 @@
 				</ProductDetailsSection>
 			</ProductTypeContainer>
 			<ProductTypeContainer
-				productId="003F"
+				productId={model003F}
 				imageAttributeObjects={[
 					imageAttributesCollection.products.PLANTER_003F_1,
 					imageAttributesCollection.products.PLANTER_003F_2,
 					imageAttributesCollection.products.PLANTER_003F_3
 				]}
 			>
-				<ProductDetailsSection sectionTitle="MODEL 003F">
+				<ProductDetailsSection sectionTitle={`MODEL ${model003F}`}>
 					A simple cuboid shape, enhanced with a hidden aeration system and overflow protection
 					reservoir.
 					<br /><br />
@@ -110,7 +116,7 @@
 							target="_blank"
 							class="no-initial-highlight"
 						>
-							003f - NO PATTERN</a
+							{model003F} - NO PATTERN</a
 						>
 					</div>
 					<div class="list-item indented">
@@ -119,7 +125,7 @@
 							target="_blank"
 							class="no-initial-highlight"
 						>
-							003f - WITH PATTERN</a
+							{model003F} - WITH PATTERN</a
 						>
 					</div>
 					<div class="list-item indented">

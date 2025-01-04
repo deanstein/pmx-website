@@ -10,8 +10,77 @@ export const sharedStyles = {
 };
 
 export const sharedUrls = {
+	productsHref: '/products/',
 	websiteIconSrc:
 		'https://res.cloudinary.com/jdg-main/image/upload/v1733979906/pmx-website/pmx-icon.png'
+};
+
+// hrefCode can't change, otherwise inbound links may break!
+export const productMeta = {
+	PLANTER_003: {
+		displayCode: '003',
+		hrefCode: '003',
+		name: 'Advanced Planter',
+		tagline: 'Give plants what they want',
+		variants: {
+			D: {
+				displayCode: 'd'
+			},
+			F: {
+				displayCode: 'f'
+			}
+		}
+	},
+	PEN_HOLDER_008: {
+		displayCode: '008',
+		hrefCode: '008',
+		name: 'Pen Holder',
+		tagline: 'Pens always within reach',
+		variants: {
+			A: {
+				displayCode: 'a'
+			},
+			F: {
+				displayCode: 'f'
+			},
+			I: {
+				displayCode: 'i'
+			}
+		}
+	},
+	CARD_HOLDER_015: {
+		displayCode: '015',
+		hrefCode: '015',
+		name: 'Card Holder',
+		tagline: 'Proudly display your cards',
+		variants: {
+			C: {
+				displayCode: 'c'
+			}
+		}
+	},
+	CITYSCAPE_021: {
+		displayCode: '021',
+		hrefCode: '021',
+		name: 'Denver Cityscape',
+		tagline: 'Denver in the palm of your hands',
+		variants: {
+			A: {
+				displayCode: 'a'
+			}
+		}
+	},
+	DECOR_030: {
+		displayCode: '030',
+		hrefCode: '030',
+		name: 'Puzzle Decor',
+		tagline: 'A challenge to assemble, a reward in art',
+		variants: {
+			A: {
+				displayCode: 'a'
+			}
+		}
+	}
 };
 
 export const pageMeta = {
@@ -34,24 +103,29 @@ export const pageMeta = {
 	},
 	products: {
 		PLANTER_003: {
-			title: 'Advanced Planter',
-			description: 'The Advanced Planter by PMX3D',
-			href: '/products/003'
+			title: productMeta.PLANTER_003.name,
+			description: `The ${productMeta.PLANTER_003.name} by PMX3D. ${productMeta.PLANTER_003.tagline}.`,
+			href: sharedUrls.productsHref + productMeta.PLANTER_003.hrefCode
 		},
 		PEN_HOLDER_008: {
-			title: 'Pen Holder',
-			description: 'The Pen Holder by PMX3D',
-			href: '/products/008'
+			title: productMeta.PEN_HOLDER_008.name,
+			description: `The ${productMeta.PEN_HOLDER_008.name} by PMX3D. ${productMeta.PEN_HOLDER_008.tagline}.`,
+			href: sharedUrls.productsHref + productMeta.PEN_HOLDER_008.hrefCode
+		},
+		CARD_HOLDER_015: {
+			title: productMeta.CARD_HOLDER_015.name,
+			description: `The ${productMeta.CARD_HOLDER_015.name} by PMX3D. ${productMeta.CARD_HOLDER_015.tagline}.`,
+			href: sharedUrls.productsHref + productMeta.CARD_HOLDER_015.hrefCode
 		},
 		CITYSCAPE_021: {
-			title: 'Denver Cityscape',
-			description: 'The Denver Cityscape by PMX3D',
-			href: '/products/021'
+			title: productMeta.CITYSCAPE_021.name,
+			description: `The ${productMeta.CARD_HOLDER_015.name} by PMX3D. ${productMeta.CITYSCAPE_021.tagline}.`,
+			href: sharedUrls.productsHref + productMeta.CITYSCAPE_021.hrefCode
 		},
 		DECOR_030: {
-			title: 'Puzzle Decor',
-			description: 'Puzzle Decor by PMX3D',
-			href: '/products/030'
+			title: productMeta.DECOR_030.name,
+			description: `The ${productMeta.DECOR_030.name} by PMX3D. ${productMeta.DECOR_030.tagline}.`,
+			href: sharedUrls.productsHref + productMeta.DECOR_030.hrefCode
 		}
 	}
 };

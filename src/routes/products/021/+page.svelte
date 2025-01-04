@@ -1,19 +1,23 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, sharedStrings } from '$lib/shared-strings';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
 	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
 	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
 	import UpNext from '../../../components/UpNext.svelte';
 	import { accentColors } from '$lib/shared-styles';
+
+	// display model numbers consistently
+	const model021A =
+		productMeta.CITYSCAPE_021.displayCode + productMeta.CITYSCAPE_021.variants.A.displayCode;
 </script>
 
 <JDGContentContainer>
 	<JDGContentBoxFloating
 		title={pageMeta.products.CITYSCAPE_021.title.toUpperCase()}
 		titleColor={accentColors[2]}
-		subtitle="Denver in the palm of your hands"
+		subtitle={productMeta.CITYSCAPE_021.tagline}
 	>
 		<ProductTypeContainer
 			imageAttributeObjects={[
@@ -23,7 +27,7 @@
 				imageAttributesCollection.products.CITYSCAPE_021A_4
 			]}
 		>
-			<ProductDetailsSection sectionTitle="MODEL 021A">
+			<ProductDetailsSection sectionTitle={`MODEL ${model021A}`}>
 				The Denver Cityscape features over 70 of Denver's most iconic buildings at 1:5280 scale.
 				<br /><br />
 				Our custom algorithm approximates the building locations based on actual addresses, then adjusts
