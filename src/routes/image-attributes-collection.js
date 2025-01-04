@@ -162,6 +162,46 @@ const imageAttributesCollection = {
 				imgCaption: 'Business Card Holder'
 			})
 		),
+		CARD_HOLDER_015C_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736014254/pmx-website/products/015C-1.jpg'
+				),
+				imgCaption: 'Business Card Holder'
+			})
+		),
+		CARD_HOLDER_015C_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736014254/pmx-website/products/015C-2.jpg'
+				),
+				imgCaption: 'Business Card Holder'
+			})
+		),
+		CARD_HOLDER_015C_3: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736014254/pmx-website/products/015C-3.jpg'
+				),
+				imgCaption: 'Business Card Holder'
+			})
+		),
+		CARD_HOLDER_015C_4: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736014254/pmx-website/products/015C-4.jpg'
+				),
+				imgCaption: 'Business Card Holder'
+			})
+		),
+		CARD_HOLDER_015C_5: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736014254/pmx-website/products/015C-5.jpg'
+				),
+				imgCaption: 'Business Card Holder'
+			})
+		),
 		CITYSCAPE_021A_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
