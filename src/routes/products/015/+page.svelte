@@ -29,18 +29,21 @@
 			]}
 		>
 			<ProductDetailsSection sectionTitle={`MODEL ${model015C}`}>
-				Six interlocking rings create a modernist decorative sphere.
+				An elegant and flexible way to display business cards.
 				<br /><br />
-				Assemble the rings in order from smallest to largest. Orientation is key.
+				Features a tier system to optionally display four sets of cards at once. Cards can be oriented
+				vertically or horizontally.
+				<br /><br />
+				An angular relief pattern ties it all together creating a simple, striking effect.
 			</ProductDetailsSection>
 			<ProductDetailsSection sectionTitle={sharedStrings.details}>
-				Dimensions: 4.00"W x 4.00"D x 4.00"H
+				Dimensions: 1.75"W x 2.32"D x 1.45"H
 				<br />
-				Latest version: v1.0.4
+				Latest version: v1.3.2
 			</ProductDetailsSection>
 			<ProductDetailsSection sectionTitle={sharedStrings.availability}>
 				<a
-					href="https://www.cgtrader.com/3d-print-models/house/decor/030a-decorative-sphere-puzzle"
+					href="https://www.cgtrader.com/3d-print-models/house/accessories/business-card-holder--5"
 					target="_blank"
 					class="no-initial-highlight"
 				>
