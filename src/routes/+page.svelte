@@ -96,9 +96,9 @@
 				href={pageMeta.products.GRINDER_039.href}
 			/>
 			<JDGImageTile
-				label={'DENVER MAP COASTER'}
+				label={productMeta.COASTER_028.name.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.COASTER_028A_0}
-				href="http://www.parametrix3d.com/028.html"
+				href={pageMeta.products.COASTER_028.href}
 			/>
 			<JDGImageTile
 				label={'KITCHEN CADDY'}

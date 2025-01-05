@@ -70,6 +70,17 @@ export const productMeta = {
 			}
 		}
 	},
+	COASTER_028: {
+		displayCode: '028',
+		hrefCode: '028',
+		name: 'Denver Map Coaster',
+		tagline: 'Put Denver under your mug',
+		variants: {
+			A: {
+				displayCode: 'a'
+			}
+		}
+	},
 	DECOR_030: {
 		displayCode: '030',
 		hrefCode: '030',
@@ -150,8 +161,13 @@ export const pageMeta = {
 		},
 		CITYSCAPE_021: {
 			title: productMeta.CITYSCAPE_021.name,
-			description: `The ${productMeta.CARD_HOLDER_015.name} by PMX3D. ${productMeta.CITYSCAPE_021.tagline}.`,
+			description: `The ${productMeta.CITYSCAPE_021.name} by PMX3D. ${productMeta.CITYSCAPE_021.tagline}.`,
 			href: sharedUrls.productsHref + productMeta.CITYSCAPE_021.hrefCode
+		},
+		COASTER_028: {
+			title: productMeta.COASTER_028.name,
+			description: `The ${productMeta.COASTER_028.name} by PMX3D. ${productMeta.COASTER_028.tagline}.`,
+			href: sharedUrls.productsHref + productMeta.COASTER_028.hrefCode
 		},
 		DECOR_030: {
 			title: productMeta.DECOR_030.name,

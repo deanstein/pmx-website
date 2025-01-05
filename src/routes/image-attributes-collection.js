@@ -259,6 +259,22 @@ const imageAttributesCollection = {
 				imgCaption: 'Denver Map Coaster'
 			})
 		),
+		COASTER_028A_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736102175/pmx-website/products/028A-1.jpg'
+				),
+				imgCaption: 'Denver Map Coaster'
+			})
+		),
+		COASTER_028A_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736102174/pmx-website/products/028A-2.jpg'
+				),
+				imgCaption: 'Denver Map Coaster'
+			})
+		),
 		DECOR_030A_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
