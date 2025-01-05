@@ -81,6 +81,17 @@ export const productMeta = {
 			}
 		}
 	},
+	GRINDER_039: {
+		displayCode: '039',
+		hrefCode: '039',
+		name: 'Herb Grinder',
+		tagline: 'Grind with ease, dispense with precision',
+		variants: {
+			A: {
+				displayCode: 'a'
+			}
+		}
+	},
 	MAGNET_047: {
 		displayCode: '047',
 		hrefCode: '047',
@@ -146,6 +157,11 @@ export const pageMeta = {
 			title: productMeta.DECOR_030.name,
 			description: `The ${productMeta.DECOR_030.name} by PMX3D. ${productMeta.DECOR_030.tagline}.`,
 			href: sharedUrls.productsHref + productMeta.DECOR_030.hrefCode
+		},
+		GRINDER_039: {
+			title: productMeta.GRINDER_039.name,
+			description: `The ${productMeta.GRINDER_039.name} by PMX3D. ${productMeta.GRINDER_039.tagline}.`,
+			href: sharedUrls.productsHref + productMeta.GRINDER_039.hrefCode
 		},
 		MAGNET_047: {
 			title: productMeta.MAGNET_047.name,

@@ -91,9 +91,9 @@
 					productMeta.MAGNET_047.variants.D.displayCode}
 			/>
 			<JDGImageTile
-				label={'HERB GRINDER'}
+				label={productMeta.GRINDER_039.name.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.GRINDER_039A_0}
-				href="http://www.parametrix3d.com/039.html"
+				href={pageMeta.products.GRINDER_039.href}
 			/>
 			<JDGImageTile
 				label={'DENVER MAP COASTER'}
