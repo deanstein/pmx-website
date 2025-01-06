@@ -62,11 +62,13 @@
 				label={pageMeta.products.DECOR_030.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.DECOR_030A_0}
 				href={pageMeta.products.DECOR_030.href}
+				objectPosition="left"
 			/>
 			<JDGImageTile
 				label={pageMeta.products.PLANTER_003.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.PLANTER_003F_0}
 				href={pageMeta.products.PLANTER_003.href}
+				objectPosition="left top"
 			/>
 			<JDGImageTile
 				label={pageMeta.products.PEN_HOLDER_008.title.toUpperCase()}
@@ -77,11 +79,13 @@
 				label={pageMeta.products.CARD_HOLDER_015.title.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.CARD_HOLDER_015C_0}
 				href={pageMeta.products.CARD_HOLDER_015.href}
+				objectPosition="left top"
 			/>
 			<JDGImageTile
 				label={productMeta.MAGNET_047.variants.B.name.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.MAGNET_DEN_CO_047BC_0}
 				href={pageMeta.products.MAGNET_047.href}
+				objectPosition="top"
 			/>
 			<JDGImageTile
 				label={productMeta.MAGNET_047.variants.D.name.toUpperCase()}
@@ -89,6 +93,7 @@
 				href={pageMeta.products.MAGNET_047.href +
 					'#' +
 					productMeta.MAGNET_047.variants.D.displayCode}
+				objectPosition="left bottom"
 			/>
 			<JDGImageTile
 				label={productMeta.GRINDER_039.name.toUpperCase()}
@@ -104,6 +109,7 @@
 				label={productMeta.KITCHEN_CADDY_007.name.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.KITCHEN_CADDY_007F_0}
 				href={pageMeta.products.KITCHEN_CADDY_007.href}
+				objectPosition="left bottom"
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>

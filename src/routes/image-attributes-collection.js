@@ -69,7 +69,7 @@ const imageAttributesCollection = {
 		PLANTER_003F_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723693178/pmx-website/products/003F-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736139000/pmx-website/products/003F-0.jpg'
 				),
 				imgCaption: 'Advanced Planter'
 			})
@@ -101,7 +101,7 @@ const imageAttributesCollection = {
 		KITCHEN_CADDY_007F_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723697506/pmx-website/products/007F-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736137982/pmx-website/products/007F-0.jpg'
 				),
 				imgCaption: 'Kitchen Caddy'
 			})
@@ -390,7 +390,7 @@ const imageAttributesCollection = {
 		MAGNET_DEN_CO_047BC_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723695383/pmx-website/products/047BC-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736136768/pmx-website/products/047BC-0.jpg'
 				),
 				imgCaption: 'DEN/CO Magnets'
 			})
@@ -398,7 +398,7 @@ const imageAttributesCollection = {
 		MAGNET_CO_TOPO_047D_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1723695588/pmx-website/products/047D-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736137296/pmx-website/products/047D-0.jpg'
 				),
 				imgCaption: 'Colorado Topography Magnet'
 			})
