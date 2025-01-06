@@ -31,6 +31,20 @@ export const productMeta = {
 			}
 		}
 	},
+	KITCHEN_CADDY_007: {
+		displayCode: '007',
+		hrefCode: '007',
+		name: 'Kitchen Caddy',
+		tagline: 'Add style to your sink',
+		variants: {
+			F: {
+				displayCode: 'f'
+			},
+			G: {
+				displayCode: 'g'
+			}
+		}
+	},
 	PEN_HOLDER_008: {
 		displayCode: '008',
 		hrefCode: '008',
@@ -148,6 +162,11 @@ export const pageMeta = {
 			title: productMeta.PLANTER_003.name,
 			description: `The ${productMeta.PLANTER_003.name} by PMX3D. ${productMeta.PLANTER_003.tagline}.`,
 			href: sharedUrls.productsHref + productMeta.PLANTER_003.hrefCode
+		},
+		KITCHEN_CADDY_007: {
+			title: productMeta.KITCHEN_CADDY_007.name,
+			description: `The ${productMeta.KITCHEN_CADDY_007.name} by PMX3D. ${productMeta.KITCHEN_CADDY_007.tagline}.`,
+			href: sharedUrls.productsHref + productMeta.KITCHEN_CADDY_007.hrefCode
 		},
 		PEN_HOLDER_008: {
 			title: productMeta.PEN_HOLDER_008.name,

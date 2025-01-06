@@ -101,9 +101,9 @@
 				href={pageMeta.products.COASTER_028.href}
 			/>
 			<JDGImageTile
-				label={'KITCHEN CADDY'}
-				imageAttributes={imageAttributesCollection.products.KITCHEN_HOLDER_007F_0}
-				href="http://www.parametrix3d.com/007.html"
+				label={productMeta.KITCHEN_CADDY_007.name.toUpperCase()}
+				imageAttributes={imageAttributesCollection.products.KITCHEN_CADDY_007F_0}
+				href={pageMeta.products.KITCHEN_CADDY_007.href}
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>

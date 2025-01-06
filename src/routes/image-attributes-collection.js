@@ -98,12 +98,44 @@ const imageAttributesCollection = {
 				imgCaption: 'Advanced Planter'
 			})
 		),
-		KITCHEN_HOLDER_007F_0: postProcessImageAttributes(
+		KITCHEN_CADDY_007F_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
 					'https://res.cloudinary.com/jdg-main/image/upload/v1723697506/pmx-website/products/007F-0.jpg'
 				),
-				imgCaption: 'Kitchen Holder'
+				imgCaption: 'Kitchen Caddy'
+			})
+		),
+		KITCHEN_CADDY_007F_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736127017/pmx-website/products/007F-1.jpg'
+				),
+				imgCaption: 'Kitchen Caddy'
+			})
+		),
+		KITCHEN_CADDY_007F_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736124871/pmx-website/products/007F-2.jpg'
+				),
+				imgCaption: 'Kitchen Caddy'
+			})
+		),
+		KITCHEN_CADDY_007G_1: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736125859/pmx-website/products/007G-1.jpg'
+				),
+				imgCaption: 'Kitchen Caddy'
+			})
+		),
+		KITCHEN_CADDY_007G_2: postProcessImageAttributes(
+			instantiateObject(jdgImageAttributes, {
+				imgSrc: addCloudinaryUrlTransformation(
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736125859/pmx-website/products/007G-2.png'
+				),
+				imgCaption: 'Kitchen Caddy'
 			})
 		),
 		PEN_HOLDER_008A_1: postProcessImageAttributes(
