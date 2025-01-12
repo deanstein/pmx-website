@@ -366,7 +366,7 @@ const imageAttributesCollection = {
 		GRINDER_039A_3: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1736101386/pmx-website/products/039A-3.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736643156/pmx-website/products/039A-3.jpg'
 				),
 				imgCaption: 'Herb Grinder'
 			})
