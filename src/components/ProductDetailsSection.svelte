@@ -15,7 +15,7 @@
 	.pmx-product-detail-section {
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
+		gap: 15px;
 	}
 
 	.product-detail-heading {
