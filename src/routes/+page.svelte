@@ -48,6 +48,7 @@
 		primaryText="PARAMETRIX3D"
 		secondaryText={'HUMAN DESIGNED &nbsp&nbsp |  &nbsp&nbsp CODE GENERATED  &nbsp&nbsp |  &nbsp&nbsp MACHINE PRINTED'}
 		primaryTextBold
+		overlapWithHeader
 	/>
 </JDGContentContainer>
 <JDGContentContainer paddingTop="0">
