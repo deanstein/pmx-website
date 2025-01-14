@@ -93,7 +93,7 @@
 				label={productMeta.MAGNET_047.variants.B.name.toUpperCase()}
 				imageAttributes={imageAttributesCollection.products.MAGNET_DEN_CO_047BC_0}
 				href={pageMeta.products.MAGNET_047.href}
-				objectPosition="top"
+				objectPosition="center"
 				><ProductCodeLabel productCode={productMeta.MAGNET_047.displayCode} /></JDGImageTile
 			>
 			<JDGImageTile

@@ -390,7 +390,7 @@ const imageAttributesCollection = {
 		MAGNET_DEN_CO_047BC_0: postProcessImageAttributes(
 			instantiateObject(jdgImageAttributes, {
 				imgSrc: addCloudinaryUrlTransformation(
-					'https://res.cloudinary.com/jdg-main/image/upload/v1736136768/pmx-website/products/047BC-0.jpg'
+					'https://res.cloudinary.com/jdg-main/image/upload/v1736830435/pmx-website/products/047BC-0.jpg'
 				),
 				imgCaption: 'DEN/CO Magnets'
 			})
