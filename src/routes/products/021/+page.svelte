@@ -44,42 +44,42 @@
 			<ProductDetailsSection sectionTitle="LEGENDS">
 				<div class="list-item">
 					<a
-						href="https://parametrix3d.com/assets/20140921v1.03-1.04-denver-cityscape-legend.pdf"
+						href="https://res.cloudinary.com/jdg-main/image/upload/v1736910582/pmx-website/products/021-legends/20140921v1.03-1.04_denver_cityscape_legend.pdf"
 						target="_blank"
 						class="no-initial-highlight">Version 1.3.x or 1.4.x</a
 					>
 				</div>
 				<div class="list-item">
 					<a
-						href="https://parametrix3d.com/assets/20150204v1.05-1.10-denver-cityscape-legend.pdf"
+						href="https://res.cloudinary.com/jdg-main/image/upload/v1736910581/pmx-website/products/021-legends/20150204v1.05-1.10_denver_cityscape_legend.pdf"
 						target="_blank"
 						class="no-initial-highlight">Version 1.5.x or 1.10.x</a
 					>
 				</div>
 				<div class="list-item">
 					<a
-						href="https://parametrix3d.com/assets/20150402v1.11-1.12-denver-cityscape-legend.pdf"
+						href="https://res.cloudinary.com/jdg-main/image/upload/v1736910581/pmx-website/products/021-legends/20150402v1.11-1.12_denver_cityscape_legend.pdf"
 						target="_blank"
 						class="no-initial-highlight">Version 1.11.x or 1.12.x</a
 					>
 				</div>
 				<div class="list-item">
 					<a
-						href="https://parametrix3d.com/assets/20151229v1.13-denver-cityscape-legend.pdf"
+						href="https://res.cloudinary.com/jdg-main/image/upload/v1736910581/pmx-website/products/021-legends/20151229v1.13_denver_cityscape_legend.pdf"
 						target="_blank"
 						class="no-initial-highlight">Version 1.13.x</a
 					>
 				</div>
 				<div class="list-item">
 					<a
-						href="https://parametrix3d.com/assets/20160213v2.01-denver-cityscape-legend.pdf"
+						href="https://res.cloudinary.com/jdg-main/image/upload/v1736910582/pmx-website/products/021-legends/20160213v2.01_denver_cityscape_legend.pdf"
 						target="_blank"
 						class="no-initial-highlight">Version 2.1.x</a
 					>
 				</div>
 				<div class="list-item">
 					<a
-						href="https://parametrix3d.com/assets/20161031v2.02-denver-cityscape-legend.pdf"
+						href="https://res.cloudinary.com/jdg-main/image/upload/v1736910582/pmx-website/products/021-legends/20161031v2.02_denver_cityscape_legend.pdf"
 						target="_blank"
 						class="no-initial-highlight">Version 2.2.x</a
 					>
