@@ -15,11 +15,16 @@
 
 <JDGContentContainer>
 	<JDGContentBoxFloating title={'ABOUT PMX3D'}>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
+			PMX3D is an industrial design collaborative founded by architect and technologist <a
+				href="https://jdeangoldstein.com"
+				target="_blank">Joshua Goldstein</a
+			>.
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
+			Short for Parametrix3D, PMX3D creates <i>parametrically-generated</i> products for life and home.
+		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0" textAlign="center" textWrap="balance">
-			Parametrix3D is a design collaborative making mathematically-generated products for life and
-			home.
-			<br />
-			<br />
 			Here's what we're about:
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE USE VISUAL SCRIPTING" textColor={jdgColors.text} />
