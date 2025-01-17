@@ -47,7 +47,7 @@
 		imageAttributes={imageAttributesCollection.products.GRINDER_039A_0}
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 		primaryText="PARAMETRIX3D"
-		secondaryText={'HUMAN DESIGNED &nbsp&nbsp |  &nbsp&nbsp CODE GENERATED  &nbsp&nbsp |  &nbsp&nbsp MACHINE PRINTED'}
+		secondaryText={'MACHINE-POWERED DESIGNS FOR HUMANS'}
 		primaryTextBold
 		overlapWithHeader
 	/>
