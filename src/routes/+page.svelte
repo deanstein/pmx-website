@@ -44,7 +44,7 @@
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.products.GRINDER_039A_0}
+		imageAttributes={imageAttributesCollection.product_line_1}
 		overlayColorRgba={sharedStyles.overlayColorDarkRgba}
 		primaryText="PARAMETRIX3D"
 		secondaryText={'MACHINE-POWERED DESIGNS FOR HUMANS'}
