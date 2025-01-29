@@ -27,13 +27,25 @@
 	// check for whether the user is trying to access
 	// one of the known redirects above, and redirect them
 	onMount(() => {
+		// parametrix3d.com or pmx3d.com
+		const currentDomain = window.location.hostname;
 		// url minus the domain stuff, so for example /hst02.html
 		const path = window.location.pathname;
-		// if the redirects list has an entry with this path, redirect
-		if (redirects.hasOwnProperty(path)) {
+
+		// handle the pmx3d domain
+		// all pmx3d.com pages will redirect to parametrix3d.com
+		if (currentDomain === 'pmx3d.com') {
+			const newUrl = `https://parametrix3d.com${path}`;
+			redirectFound = true;
+			setTimeout(() => {
+				window.location.href = newUrl;
+			}, 750);
+		// the standard parametrix3d.com paths
+		} else if (redirects.hasOwnProperty(path)) {
+			// if the redirects list has an entry with this path, redirect
 			redirectFound = true;
 			// redirect after a short delay
-			// so the redirect message can be read
+			// so the redirect message can show
 			setTimeout(() => {
 				// @ts-expect-error
 				window.location.href = redirects[path];
