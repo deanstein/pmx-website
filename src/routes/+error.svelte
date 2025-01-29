@@ -12,25 +12,26 @@
 	// these are the old Muse website paths
 	// that we'll attempt to redirect to in this error page
 	const redirects = {
-		'/003.html': '/products/003',
-		'/007.html': '/products/007',
-		'/008.html': '/products/008',
-		'/015.html': '/products/015',
-		'/021.html': '/products/021',
-		'/028.html': '/products/028',
-		'/030.html': '/products/030',
-		'/039.html': '/products/039',
-		'/047.html': '/products/047',
-		'/047d.html': '/products/047#d'
+		'/003': '/products/003',
+		'/007': '/products/007',
+		'/008': '/products/008',
+		'/015': '/products/015',
+		'/021': '/products/021',
+		'/028': '/products/028',
+		'/030': '/products/030',
+		'/039': '/products/039',
+		'/047': '/products/047',
+		'/047d': '/products/047#d'
 	};
 
 	// check for whether the user is trying to access
 	// one of the known redirects above, and redirect them
 	onMount(() => {
-		// parametrix3d.com or pmx3d.com
 		const currentDomain = window.location.hostname;
-		// url minus the domain stuff, so for example /hst02.html
-		const path = window.location.pathname;
+		const rawPath = window.location.pathname;
+
+		// normalize path to handle .html suffix
+		const path = rawPath.endsWith('.html') ? rawPath.slice(0, -5) : rawPath;
 
 		// handle the pmx3d domain
 		// all pmx3d.com pages will redirect to parametrix3d.com
