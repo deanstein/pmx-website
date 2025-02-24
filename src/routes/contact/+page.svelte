@@ -11,7 +11,7 @@
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating title={'GET IN TOUCH'} subtitle={"We'd love to hear from you"}>
+	<JDGContentBoxFloating title={'GET IN TOUCH'}>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center">
 			Feedback on our products? Custom design request?
 			<br />
