@@ -41,7 +41,7 @@
 			setTimeout(() => {
 				window.location.href = newUrl;
 			}, 750);
-		// the standard parametrix3d.com paths
+			// the standard parametrix3d.com paths
 		} else if (redirects.hasOwnProperty(path)) {
 			// if the redirects list has an entry with this path, redirect
 			redirectFound = true;
