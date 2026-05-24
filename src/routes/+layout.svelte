@@ -3,7 +3,13 @@
 	import { MetaTags } from 'svelte-meta-tags';
 	import extend from 'just-extend';
 
-	import { addCloudinaryUrlTransformation, instantiateObject, jdgNavItem, pmx3dWebsiteRepoName, repoName } from 'jdg-ui-svelte';
+	import {
+		addCloudinaryUrlTransformation,
+		instantiateObject,
+		jdgNavItem,
+		pmx3dWebsiteRepoName,
+		repoName
+	} from 'jdg-ui-svelte';
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 
