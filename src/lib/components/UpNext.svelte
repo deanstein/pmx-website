@@ -1,5 +1,5 @@
 <script>
-	import imageMetaRegistry from '../routes/image-attributes-collection';
+	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { JDGUpNext } from 'jdg-ui-svelte';
 </script>
 

@@ -1,5 +1,5 @@
+import imageMetaRegistry from '$lib/image-meta-registry';
 import { pageMeta } from '$lib/shared-strings.js';
-import imageMetaRegistry from './image-attributes-collection.js';
 
 export const prerender = true;
 
