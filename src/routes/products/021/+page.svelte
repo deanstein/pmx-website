@@ -1,12 +1,12 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
-
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
-	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
-	import UpNext from '../../../components/UpNext.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 	import { accentColors } from '$lib/shared-styles';
+	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
+	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
+	import UpNext from '$lib/components/UpNext.svelte';
 
 	// display model numbers consistently
 	const model021A =
@@ -20,11 +20,11 @@
 		subtitle={productMeta.CITYSCAPE_021.tagline}
 	>
 		<ProductTypeContainer
-			imageAttributeObjects={[
-				imageAttributesCollection.products.CITYSCAPE_021A_1,
-				imageAttributesCollection.products.CITYSCAPE_021A_2,
-				imageAttributesCollection.products.CITYSCAPE_021A_3,
-				imageAttributesCollection.products.CITYSCAPE_021A_4
+			imageMetaSet={[
+				imageMetaRegistry.products.CITYSCAPE_021A_1,
+				imageMetaRegistry.products.CITYSCAPE_021A_2,
+				imageMetaRegistry.products.CITYSCAPE_021A_3,
+				imageMetaRegistry.products.CITYSCAPE_021A_4
 			]}
 		>
 			<ProductDetailsSection sectionTitle={`MODEL ${model021A}`}>

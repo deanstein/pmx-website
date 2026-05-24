@@ -1,12 +1,12 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
-
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
-	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
-	import UpNext from '../../../components/UpNext.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 	import { accentColors } from '$lib/shared-styles';
+	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
+	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
+	import UpNext from '$lib/components/UpNext.svelte';
 
 	// display model numbers consistently
 	const model015C =
@@ -20,12 +20,12 @@
 		subtitle={productMeta.CARD_HOLDER_015.tagline}
 	>
 		<ProductTypeContainer
-			imageAttributeObjects={[
-				imageAttributesCollection.products.CARD_HOLDER_015C_1,
-				imageAttributesCollection.products.CARD_HOLDER_015C_2,
-				imageAttributesCollection.products.CARD_HOLDER_015C_3,
-				imageAttributesCollection.products.CARD_HOLDER_015C_4,
-				imageAttributesCollection.products.CARD_HOLDER_015C_5
+			imageMetaSet={[
+				imageMetaRegistry.products.CARD_HOLDER_015C_1,
+				imageMetaRegistry.products.CARD_HOLDER_015C_2,
+				imageMetaRegistry.products.CARD_HOLDER_015C_3,
+				imageMetaRegistry.products.CARD_HOLDER_015C_4,
+				imageMetaRegistry.products.CARD_HOLDER_015C_5
 			]}
 		>
 			<ProductDetailsSection sectionTitle={`MODEL ${model015C}`}>

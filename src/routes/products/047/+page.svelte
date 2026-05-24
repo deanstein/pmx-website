@@ -1,13 +1,13 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
-
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
-	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
-	import ProductTypeSelector from '../../../components/ProductTypeSelector.svelte';
-	import UpNext from '../../../components/UpNext.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 	import { accentColors } from '$lib/shared-styles';
+	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
+	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
+	import ProductTypeSelector from '$lib/components/ProductTypeSelector.svelte';
+	import UpNext from '$lib/components/UpNext.svelte';
 
 	// display model numbers consistently
 	const model047B =
@@ -28,16 +28,16 @@
 			activeProductId={model047B}
 			productTypeIds={[model047B, model047C, model047D]}
 			productTypeThumbnailImageAttributes={[
-				imageAttributesCollection.products.MAGNET_CO_047B_1,
-				imageAttributesCollection.products.MAGNET_DEN_047C_1,
-				imageAttributesCollection.products.MAGNET_CO_TOPO_047D_1
+				imageMetaRegistry.products.MAGNET_CO_047B_1,
+				imageMetaRegistry.products.MAGNET_DEN_047C_1,
+				imageMetaRegistry.products.MAGNET_CO_TOPO_047D_1
 			]}
 		>
 			<ProductTypeContainer
 				productId={model047B}
-				imageAttributeObjects={[
-					imageAttributesCollection.products.MAGNET_CO_047B_1,
-					imageAttributesCollection.products.MAGNET_DEN_CO_047BC_0
+				imageMetaSet={[
+					imageMetaRegistry.products.MAGNET_CO_047B_1,
+					imageMetaRegistry.products.MAGNET_DEN_CO_047BC_0
 				]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model047B}`}>
@@ -64,9 +64,9 @@
 			</ProductTypeContainer>
 			<ProductTypeContainer
 				productId={model047C}
-				imageAttributeObjects={[
-					imageAttributesCollection.products.MAGNET_DEN_047C_1,
-					imageAttributesCollection.products.MAGNET_DEN_CO_047BC_0
+				imageMetaSet={[
+					imageMetaRegistry.products.MAGNET_DEN_047C_1,
+					imageMetaRegistry.products.MAGNET_DEN_CO_047BC_0
 				]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model047C}`}>
@@ -93,9 +93,9 @@
 			</ProductTypeContainer>
 			<ProductTypeContainer
 				productId={model047D}
-				imageAttributeObjects={[
-					imageAttributesCollection.products.MAGNET_CO_TOPO_047D_1,
-					imageAttributesCollection.products.MAGNET_CO_TOPO_047D_2
+				imageMetaSet={[
+					imageMetaRegistry.products.MAGNET_CO_TOPO_047D_1,
+					imageMetaRegistry.products.MAGNET_CO_TOPO_047D_2
 				]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model047D}`}>

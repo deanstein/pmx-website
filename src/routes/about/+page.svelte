@@ -1,5 +1,6 @@
 <script>
-	imageAttributesCollection;
+	import { jdgColors, jdgSharedUrlsStore } from 'jdg-ui-svelte';
+
 	import {
 		JDGAccentText,
 		JDGBodyCopy,
@@ -7,10 +8,9 @@
 		JDGContentContainer,
 		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
-	import imageAttributesCollection from '../image-attributes-collection';
-	import UpNext from '../../components/UpNext.svelte';
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import UpNext from '$lib/components/UpNext.svelte';
 </script>
 
 <JDGContentContainer>
@@ -29,7 +29,7 @@
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE USE VISUAL SCRIPTING" textColor={jdgColors.text} />
 		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.gh_script_1_transparent}
+			imageMeta={imageMetaRegistry.gh_script_1_transparent}
 			maxHeight="300px"
 		/>
 		<JDGBodyCopy paddingTop="0">
@@ -43,7 +43,7 @@
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE CREATE SOPHISTICATED DESIGNS" textColor={jdgColors.text} />
 		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.products.CITYSCAPE_021A_multiple_1}
+			imageMeta={imageMetaRegistry.products.CITYSCAPE_021A_multiple_1}
 			maxHeight="300px"
 		/>
 		<JDGBodyCopy paddingTop="0">
@@ -55,7 +55,7 @@
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE USE MINIMAL PACKAGING" textColor={jdgColors.text} />
 		<JDGImageFullWidth
-			imageAttributes={imageAttributesCollection.product_line_1}
+			imageMeta={imageMetaRegistry.product_line_1}
 			maxHeight="300px"
 		/>
 		<JDGBodyCopy paddingTop="0">
@@ -64,7 +64,7 @@
 			our footprint.
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE MINIMIZE OUR IMPACT" textColor={jdgColors.text} />
-		<JDGImageFullWidth imageAttributes={imageAttributesCollection.recycling_1} maxHeight="300px" />
+		<JDGImageFullWidth imageMeta={imageMetaRegistry.recycling_1} maxHeight="300px" />
 		<JDGBodyCopy paddingTop="0">
 			During fabrication, we strive to keep our failure rate low. But accidents happen, and we
 			generate more plastic waste than we'd like.
@@ -73,7 +73,7 @@
 			is disposed of properly.
 			<br /><br />
 			As of 2017, Parametrix3D products are no longer available in-store, but can be downloaded and printed
-			from <a href={jdgSharedUrls.pmxCgTrader} target="_blank">CGTrader</a>.
+			from <a href={$jdgSharedUrlsStore.pmxCgTrader} target="_blank">CGTrader</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<UpNext />

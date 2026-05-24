@@ -1,13 +1,13 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
-
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
-	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
-	import ProductTypeSelector from '../../../components/ProductTypeSelector.svelte';
-	import UpNext from '../../../components/UpNext.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 	import { accentColors } from '$lib/shared-styles';
+	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
+	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
+	import ProductTypeSelector from '$lib/components/ProductTypeSelector.svelte';
+	import UpNext from '$lib/components/UpNext.svelte';
 
 	// display model numbers consistently
 	const model007F =
@@ -28,15 +28,15 @@
 			activeProductId={model007F}
 			productTypeIds={[model007F, model007G]}
 			productTypeThumbnailImageAttributes={[
-				imageAttributesCollection.products.KITCHEN_CADDY_007F_1,
-				imageAttributesCollection.products.KITCHEN_CADDY_007G_1
+				imageMetaRegistry.products.KITCHEN_CADDY_007F_1,
+				imageMetaRegistry.products.KITCHEN_CADDY_007G_1
 			]}
 		>
 			<ProductTypeContainer
 				productId={model007F}
-				imageAttributeObjects={[
-					imageAttributesCollection.products.KITCHEN_CADDY_007F_2,
-					imageAttributesCollection.products.KITCHEN_CADDY_007F_1
+				imageMetaSet={[
+					imageMetaRegistry.products.KITCHEN_CADDY_007F_2,
+					imageMetaRegistry.products.KITCHEN_CADDY_007F_1
 				]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model007F}`}>
@@ -64,9 +64,9 @@
 			</ProductTypeContainer>
 			<ProductTypeContainer
 				productId={model007G}
-				imageAttributeObjects={[
-					imageAttributesCollection.products.KITCHEN_CADDY_007G_1,
-					imageAttributesCollection.products.KITCHEN_CADDY_007G_2
+				imageMetaSet={[
+					imageMetaRegistry.products.KITCHEN_CADDY_007G_1,
+					imageMetaRegistry.products.KITCHEN_CADDY_007G_2
 				]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model007G}`}>

@@ -1,13 +1,13 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
-
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
-	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
-	import ProductTypeSelector from '../../../components/ProductTypeSelector.svelte';
-	import UpNext from '../../../components/UpNext.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 	import { accentColors } from '$lib/shared-styles';
+	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
+	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
+	import ProductTypeSelector from '$lib/components/ProductTypeSelector.svelte';
+	import UpNext from '$lib/components/UpNext.svelte';
 
 	// display model numbers consistently
 	const model008A =
@@ -28,16 +28,16 @@
 			activeProductId={model008I}
 			productTypeIds={[model008A, model008F, model008I]}
 			productTypeThumbnailImageAttributes={[
-				imageAttributesCollection.products.PEN_HOLDER_008A_1,
-				imageAttributesCollection.products.PEN_HOLDER_008F_1,
-				imageAttributesCollection.products.PEN_HOLDER_008I_1
+				imageMetaRegistry.products.PEN_HOLDER_008A_1,
+				imageMetaRegistry.products.PEN_HOLDER_008F_1,
+				imageMetaRegistry.products.PEN_HOLDER_008I_1
 			]}
 		>
 			<ProductTypeContainer
 				productId={model008A}
-				imageAttributeObjects={[
-					imageAttributesCollection.products.PEN_HOLDER_008A_1,
-					imageAttributesCollection.products.PEN_HOLDER_008A_2
+				imageMetaSet={[
+					imageMetaRegistry.products.PEN_HOLDER_008A_1,
+					imageMetaRegistry.products.PEN_HOLDER_008A_2
 				]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model008A}`}>
@@ -66,9 +66,9 @@
 			</ProductTypeContainer>
 			<ProductTypeContainer
 				productId={model008F}
-				imageAttributeObjects={[
-					imageAttributesCollection.products.PEN_HOLDER_008F_1,
-					imageAttributesCollection.products.PEN_HOLDER_008F_2
+				imageMetaSet={[
+					imageMetaRegistry.products.PEN_HOLDER_008F_1,
+					imageMetaRegistry.products.PEN_HOLDER_008F_2
 				]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model008F}`}>
@@ -97,7 +97,7 @@
 			</ProductTypeContainer>
 			<ProductTypeContainer
 				productId={model008I}
-				imageAttributeObjects={[imageAttributesCollection.products.PEN_HOLDER_008I_1]}
+				imageMetaSet={[imageMetaRegistry.products.PEN_HOLDER_008I_1]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model008I}`}>
 					Simple, elegant geometry makes this a classic desk piece.
