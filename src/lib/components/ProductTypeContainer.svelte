@@ -1,9 +1,9 @@
 <script>
 	import { css } from '@emotion/css';
 
-	import imageMetaRegistry from '../routes/image-attributes-collection';
-	import { jdgBreakpoints } from 'jdg-ui-svelte/jdg-shared-styles.js';
-
+	import { jdgBreakpoints } from 'jdg-ui-svelte';
+	
+	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { JDGImageCarousel } from 'jdg-ui-svelte';
 	import { accentColors } from '$lib/shared-styles';
 
