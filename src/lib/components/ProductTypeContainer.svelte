@@ -2,7 +2,7 @@
 	import { css } from '@emotion/css';
 
 	import { jdgBreakpoints } from 'jdg-ui-svelte';
-	
+
 	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { JDGImageCarousel } from 'jdg-ui-svelte';
 	import { accentColors } from '$lib/shared-styles';

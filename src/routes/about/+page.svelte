@@ -28,10 +28,7 @@
 			Here's what we're about:
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE USE VISUAL SCRIPTING" textColor={jdgColors.text} />
-		<JDGImageFullWidth
-			imageMeta={imageMetaRegistry.gh_script_1_transparent}
-			maxHeight="300px"
-		/>
+		<JDGImageFullWidth imageMeta={imageMetaRegistry.gh_script_1_transparent} maxHeight="300px" />
 		<JDGBodyCopy paddingTop="0">
 			We build algorithms that build great products. Our generative design process allows us to
 			refine our designs over and over until they're just right.
@@ -54,10 +51,7 @@
 			shelf that doesn't meet our strict quality control criteria.
 		</JDGBodyCopy>
 		<JDGAccentText secondaryText="WE USE MINIMAL PACKAGING" textColor={jdgColors.text} />
-		<JDGImageFullWidth
-			imageMeta={imageMetaRegistry.product_line_1}
-			maxHeight="300px"
-		/>
+		<JDGImageFullWidth imageMeta={imageMetaRegistry.product_line_1} maxHeight="300px" />
 		<JDGBodyCopy paddingTop="0">
 			Where we sell physical models, we think the focus should be on the product, and not on the
 			packaging. So we've minimized our packaging to put our designs front and center, and to reduce
