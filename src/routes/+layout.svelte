@@ -3,13 +3,16 @@
 	import { MetaTags } from 'svelte-meta-tags';
 	import extend from 'just-extend';
 
-	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
-	import { addCloudinaryUrlTransformation, instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
-	import { pmx3dWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
+	import { addCloudinaryUrlTransformation, instantiateObject, jdgNavItem, pmx3dWebsiteRepoName, repoName } from 'jdg-ui-svelte';
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { pageMeta, sharedUrls } from '$lib/shared-strings';
 	import { accentColorBar, accentColors } from '$lib/shared-styles';
+
+	// Define the repo name
+	repoName.set(pmx3dWebsiteRepoName);
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
@@ -50,6 +53,7 @@
 
 <MetaTags {...metaTags} />
 <JDGAppContainer
+	{imageMetaRegistry}
 	appLoadingIconSrc={addCloudinaryUrlTransformation(sharedUrls.websiteIconSrc)}
 	{accentColors}
 	linkColorDefault={accentColors[1]}

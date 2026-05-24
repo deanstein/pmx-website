@@ -1,13 +1,13 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
-
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
-	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
-	import ProductTypeSelector from '../../../components/ProductTypeSelector.svelte';
-	import UpNext from '../../../components/UpNext.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 	import { accentColors } from '$lib/shared-styles';
+	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
+	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
+	import ProductTypeSelector from '$lib/components/ProductTypeSelector.svelte';
+	import UpNext from '$lib/components/UpNext.svelte';
 
 	// display model numbers consistently
 	const model003D =
@@ -26,16 +26,16 @@
 			activeProductId={model003F}
 			productTypeIds={[model003D, model003F]}
 			productTypeThumbnailImageAttributes={[
-				imageAttributesCollection.products.PLANTER_003D_1,
-				imageAttributesCollection.products.PLANTER_003F_0
+				imageMetaRegistry.products.PLANTER_003D_1,
+				imageMetaRegistry.products.PLANTER_003F_0
 			]}
 		>
 			<ProductTypeContainer
 				productId={model003D}
-				imageAttributeObjects={[
-					imageAttributesCollection.products.PLANTER_003D_1,
-					imageAttributesCollection.products.PLANTER_003D_2,
-					imageAttributesCollection.products.PLANTER_003D_3
+				imageMetaSet={[
+					imageMetaRegistry.products.PLANTER_003D_1,
+					imageMetaRegistry.products.PLANTER_003D_2,
+					imageMetaRegistry.products.PLANTER_003D_3
 				]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model003D}`}>
@@ -86,10 +86,10 @@
 			</ProductTypeContainer>
 			<ProductTypeContainer
 				productId={model003F}
-				imageAttributeObjects={[
-					imageAttributesCollection.products.PLANTER_003F_1,
-					imageAttributesCollection.products.PLANTER_003F_2,
-					imageAttributesCollection.products.PLANTER_003F_3
+				imageMetaSet={[
+					imageMetaRegistry.products.PLANTER_003F_1,
+					imageMetaRegistry.products.PLANTER_003F_2,
+					imageMetaRegistry.products.PLANTER_003F_3
 				]}
 			>
 				<ProductDetailsSection sectionTitle={`MODEL ${model003F}`}>

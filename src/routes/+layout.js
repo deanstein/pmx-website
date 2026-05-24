@@ -1,5 +1,5 @@
 import { pageMeta } from '$lib/shared-strings.js';
-import imageAttributesCollection from './image-attributes-collection.js';
+import imageMetaRegistry from './image-attributes-collection.js';
 
 export const prerender = true;
 
@@ -18,7 +18,7 @@ export const load = ({ url }) => {
 			description: pageMeta.home.description,
 			images: [
 				{
-					url: imageAttributesCollection.products.CITYSCAPE_021A_0.imgSrc,
+					url: imageMetaRegistry.products.CITYSCAPE_021A_0.imgSrc,
 					width: 800,
 					height: 600,
 					type: 'image/jpeg'

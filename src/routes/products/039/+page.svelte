@@ -1,12 +1,12 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
-	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
-
 	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
-	import ProductDetailsSection from '../../../components/ProductDetailsSection.svelte';
-	import ProductTypeContainer from '../../../components/ProductTypeContainer.svelte';
-	import UpNext from '../../../components/UpNext.svelte';
+
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 	import { accentColors } from '$lib/shared-styles';
+	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
+	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
+	import UpNext from '$lib/components/UpNext.svelte';
 
 	// display model numbers consistently
 	const model039A =
@@ -20,10 +20,10 @@
 		subtitle={productMeta.GRINDER_039.tagline}
 	>
 		<ProductTypeContainer
-			imageAttributeObjects={[
-				imageAttributesCollection.products.GRINDER_039A_1,
-				imageAttributesCollection.products.GRINDER_039A_2,
-				imageAttributesCollection.products.GRINDER_039A_3
+			imageMetaSet={[
+				imageMetaRegistry.products.GRINDER_039A_1,
+				imageMetaRegistry.products.GRINDER_039A_2,
+				imageMetaRegistry.products.GRINDER_039A_3
 			]}
 		>
 			<ProductDetailsSection sectionTitle={`MODEL ${model039A}`}>

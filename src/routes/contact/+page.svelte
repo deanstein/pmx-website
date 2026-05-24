@@ -1,13 +1,12 @@
 <script>
-	imageAttributesCollection;
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGIFrame
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../image-attributes-collection';
-	import UpNext from '../../components/UpNext.svelte';
+
+	import UpNext from '$lib/components/UpNext.svelte';
 </script>
 
 <JDGContentContainer>
