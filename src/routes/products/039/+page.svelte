@@ -1,8 +1,9 @@
 <script>
-	import { JDGContentBoxFloating, JDGContentContainer } from 'jdg-ui-svelte';
+	import { JDGContentBoxFloating, JDGContentContainer, colorMode, lightenColor } from 'jdg-ui-svelte';
 
 	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
+	import { accentColors } from '$lib/shared-styles';
 	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
 	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
 	import UpNext from '$lib/components/UpNext.svelte';
@@ -15,6 +16,7 @@
 <JDGContentContainer>
 	<JDGContentBoxFloating
 		title={pageMeta.products.GRINDER_039.title.toUpperCase()}
+		titleColor={$colorMode === 'dark' ? lightenColor(accentColors[0], 0.15) : accentColors[2]}
 		subtitle={productMeta.GRINDER_039.tagline}
 	>
 		<ProductTypeContainer

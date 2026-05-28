@@ -1,12 +1,12 @@
 <script>
 	import { css } from '@emotion/css';
-	import { colorMode } from 'jdg-ui-svelte';
+	import { colorMode, lightenColor } from 'jdg-ui-svelte';
 	import { accentColors } from '$lib/shared-styles';
 
 	export let sectionTitle = 'PRODUCT SECTION';
 
 	$: accentColorBar = css`
-		background-color: ${$colorMode === 'dark' ? accentColors[0] : accentColors[2]};
+		background-color: ${$colorMode === 'dark' ? lightenColor(accentColors[0], 0.15) : accentColors[2]};
 		color: ${$colorMode === 'dark' ? accentColors[2] : 'white'};
 	`;
 </script>
