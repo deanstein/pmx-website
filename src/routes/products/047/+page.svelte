@@ -5,7 +5,7 @@
 	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
 	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
 	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
-	import ProductTypeSelector frsom '$lib/components/ProductTypeSelector.svelte';
+	import ProductTypeSelector from '$lib/components/ProductTypeSelector.svelte';
 	import UpNext from '$lib/components/UpNext.svelte';
 
 	// display model numbers consistently
