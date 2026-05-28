@@ -1,7 +1,14 @@
 <script>
-	import { accentColorBar } from '$lib/shared-styles';
+	import { css } from '@emotion/css';
+	import { colorMode } from 'jdg-ui-svelte';
+	import { accentColors } from '$lib/shared-styles';
 
 	export let sectionTitle = 'PRODUCT SECTION';
+
+	$: accentColorBar = css`
+		background-color: ${$colorMode === 'dark' ? accentColors[0] : accentColors[2]};
+		color: ${$colorMode === 'dark' ? accentColors[2] : 'white'};
+	`;
 </script>
 
 <div class="pmx-product-detail-section">
