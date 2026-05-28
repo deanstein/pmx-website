@@ -1,10 +1,9 @@
 <script>
 	import { css } from '@emotion/css';
 
-	import { jdgBreakpoints } from 'jdg-ui-svelte';
+	import { colorMode, JDGImageCarousel, jdgBreakpoints, lightenColor } from 'jdg-ui-svelte';
 
 	import imageMetaRegistry from '$lib/image-meta-registry';
-	import { JDGImageCarousel } from 'jdg-ui-svelte';
 	import { accentColors } from '$lib/shared-styles';
 
 	export let productId = undefined; // optional, for use in ProductTypeSelector parent component (if multiple types)
@@ -39,7 +38,7 @@
 			showAttribution={false}
 			showBlurInUnfilledSpace={false}
 			justifyContent="right"
-			activeThumbnailColor={accentColors[2]}
+			activeThumbnailColor={$colorMode === 'dark' ? lightenColor(accentColors[0], 0.15) : accentColors[2]}
 		/>
 	</div>
 	<div class="flex-container-right">

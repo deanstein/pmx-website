@@ -2,8 +2,11 @@
 	// @ts-nocheck
 	import { afterUpdate } from 'svelte';
 
-	import { JDGImageTile } from 'jdg-ui-svelte';
+	import { colorMode, JDGImageTile, lightenColor } from 'jdg-ui-svelte';
 	import { accentColors } from '$lib/shared-styles';
+
+	$: activeOutlineColor =
+		$colorMode === 'dark' ? lightenColor(accentColors[0], 0.15) : accentColors[2];
 
 	export let activeProductId = productTypeIds[0]; // optional - if not set, uses the first id
 	export let productTypeIds = []; // array of product IDs to show
@@ -77,7 +80,7 @@
 					<div
 						class="active-thumbnail-wrapper"
 						style={productTypeIds[i] === activeProductId
-							? `outline: 5px solid ${accentColors[2]}`
+							? `outline: 5px solid ${activeOutlineColor}`
 							: ''}
 					>
 						<JDGImageTile
