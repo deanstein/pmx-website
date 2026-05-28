@@ -3,7 +3,6 @@
 
 	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
-	import { accentColors } from '$lib/shared-styles';
 	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
 	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
 	import ProductTypeSelector from '$lib/components/ProductTypeSelector.svelte';
@@ -19,7 +18,6 @@
 <JDGContentContainer>
 	<JDGContentBoxFloating
 		title={pageMeta.products.PLANTER_003.title.toUpperCase()}
-		titleColor={accentColors[2]}
 		subtitle={productMeta.PLANTER_003.tagline}
 	>
 		<ProductTypeSelector

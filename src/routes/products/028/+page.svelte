@@ -3,7 +3,6 @@
 
 	import imageMetaRegistry from '$lib/image-meta-registry';
 	import { pageMeta, productMeta, sharedStrings } from '$lib/shared-strings';
-	import { accentColors } from '$lib/shared-styles';
 	import ProductDetailsSection from '$lib/components/ProductDetailsSection.svelte';
 	import ProductTypeContainer from '$lib/components/ProductTypeContainer.svelte';
 	import UpNext from '$lib/components/UpNext.svelte';
@@ -16,7 +15,6 @@
 <JDGContentContainer>
 	<JDGContentBoxFloating
 		title={pageMeta.products.COASTER_028.title.toUpperCase()}
-		titleColor={accentColors[2]}
 		subtitle={productMeta.COASTER_028.tagline}
 	>
 		<ProductTypeContainer
